@@ -1,0 +1,18 @@
+{
+  "states": [
+    "intent_JobSeeker_detail",
+    "intent_greet",
+    "intent_jobseeker_affirm",
+    "intent_recruiter_affirm",
+    "intent_recruiter_chat",
+    "prev_action_listen",
+    "prev_action_restart",
+    "prev_action_default_fallback",
+    "prev_action_deactivate_form",
+    "prev_utter_greet",
+    "prev_utter_how_can_I_help",
+    "prev_utter_let_me_check_for_candidates",
+    "prev_utter_give_me_details",
+    "prev_utter_great_let_me_check_if_we_have_anything"
+  ]
+}

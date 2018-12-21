@@ -1,0 +1,1393 @@
+## intent:greet
+- hi there
+- hello there
+- hey
+- hi
+- hey bot
+- good morning
+- goodmorning
+- hello
+- goodevening
+- goodafternoon
+- good evening
+- morning
+- good afternoon
+- hi bot
+- hello bot
+- good morning bot
+- good afternoon bot
+- good evening bot
+- good day bot
+- afternoon
+- afternoon bot
+- morning bot
+- evening bot
+- what's up bot
+- sup
+- how is it going
+
+##intent:recruiter_chat
+- I am looking for a [PHP](job_type) developer
+- I am looking for [freshers](candidate_type)
+
+##intent:jobseeker_affirm
+- I am a [jobseeker](job_seek)
+- Hey i am looking for a [PHP](job_type)
+- Hello i am a final year student looking for a job in your company [google](company_name)
+- I am a [fresher](candidate_type) looking for an opportunity in [google](company_name)
+- I am an enthusiastic [fresher](candidate_type) looking for an opportunity to learn and grow
+
+##intent: recruiter_affirm
+- I am a recruiter
+- I am responsible for recruitment in [google](company_name)
+- I am a recruiter at [google](company_name)
+
+##intent:demo
+- yes please show me your demo
+- demo
+- demo please
+- yes demo
+- website tour
+- yes please give me brief introduction about your company
+- yes please give me brief introduction about your venture
+- brief introduction about your venture
+- brief introduction about your company
+- introduction
+- how do you work
+- what are your procedures with jobseekers
+- how do your company work
+- what is the product of your company
+- can you give a brief demo
+- a brief demo would be helpful
+- I could use a little briefing
+
+##intent:JobSeeker_detail
+- My name is [Abhishek](name)
+- my email is [abhishek.shah24499@gmail.com](mail)
+- [shah](name)
+- [abhishek@gmail.com](mail)
+- you can call me [Abhishek](name)
+- people know me by [Abhishek](name)
+- please connect me at [abhishek@gmail.com](mail)
+- you can mail me at [abhishek@gmail.com](mail)
+- please send me the job description at [abhishek@gmail.com](mail)
+
+## intent:inform
+- [PHP Development](job_type) job
+- how about [Django Developer](job_type)
+- im looking for a [Data Science](job_type) in the [Banglore](location)
+- find [10 lacs](package) ranged job in the [Hyderabad](location)
+- what about [Business Analytics](job_type) job
+- uh how about [Software Developer](job_type) job
+- yea im looking for a [Development](job_type) job
+- a [PHP Developer](job_type) job in the [west](location)
+- im looking for [Data Science](job_type) job
+- i need a [PHP development](job_type) job in the [Delhi](location)
+- [Java Development](job_type) job in the [east](location) of town
+- id like [Django Development](job_type) job
+- im looking for an [Djang Development](job_type) job in the [Delhi](location) town
+- [PHP](job_type) job
+- [Delhi](location) [Java](job_type)
+- [Web Developer](job_type) job in the [south](location)
+- [Bangalore](location)
+- [Delhi](location) part
+- [PHP development](job_type)job
+- Search [PHP development](job_type) job
+- i need a [Web development](job_type) job_typed job
+- i want a [Web Developer](job_type) job_typed job in the [Hyderabad](location)
+- i want a [Software Developer](job_type) job in the [Hyderabad](location)
+- id like a job in any area that is on [Web Development](job_type)
+- im looking for a job in the [south](location) on [Web Developer](job_type) job
+- um what about [Web Developer](job_type) job
+- im looking for a [Web Developer](job_type) job in the [north](location)
+- jobs in [Hyderabad](location)
+- im looking for [Web Developer Jobs](job_type) job
+- [Hyderabad](location)
+- ah im looking for a [Web Developer](job_type) job
+- im looking for [Web Developer](job_type) job
+- im looking for a job that involves [Web Development](job_type) job
+- how about [Web Developer](job_type) job
+- can i get a job related to  [Web Development](job_type) job
+- [Web Development](job_type) job
+- im looking for a job in the [west](location) on [Web Development](job_type) job
+- jobs in  [south](location)  on [Web Development](job_type) job
+- [Web Development](job_type) jobs
+- how about one that involves [Web Development](job_type) job
+- [Web Development](job_type)
+- im looking for [Web Development](job_type) job in [Full Time](job_type) range
+- i want to find a [Full Time](job_type) job that is on [Web Development](job_type) job
+- im looking for a [Part Time](job_type) job_typed
+- looking for a [Full Time](job_type) job
+- id like to find a [Full Time](job_type) job
+- i want a job that is [Full Time](job_type) job
+- how about [Full Time](job_type)
+- im looking for a job on the [east](location)  that are Full Time
+- the [west](location)
+- i want to find a [Full Time](job_type) job and it should be on [Web Development](job_type) job
+- how [Full Time](job_type)
+- how about [Full Time](job_type) job
+- looking for something [Full Time](job_type) job_typed in the [north](location) side of town
+- the [south](location)  id like a job that are [Full Time](job_type) job
+- i need a [Full Time](job_type) job that are [Full Time](job_type) job
+- [Full Time](job_type)
+- id like to find a [Part Time](job_type) job_typed job in the [east](location)
+- looking for a [Full Time](job_type) job_typed job that is on  [Web Devlopment](job_type)
+- i would like [Full Time](job_type) job
+- hi looking for a [Full Time](job_type) job_typed job
+- looking for a job that is on [Full stack Development](job_type) job
+- i want an [Full Time](job_type) job that is on [App Development](job_type) job
+- i want to find a [Full Time](job_type) job_typed job that are on [App Development](job_type) job
+- [App Development](job_type)
+- how about [Full Time](job_type)
+- hi im looking for [Full Time](job_type) job
+- i would like a [Full Time](job_type) job in the [north](location)
+- a [Full Time](job_type) job in the [west](location)
+- looking for a [Full Time](job_type) job in the [south](location)
+- job any area [Full Time](job_type) job
+- im looking for a job in the [north](location)
+- what about [Full Time](job_type) job
+- how about [Full Time](job_type) job
+- im looking for a job that requires [Full Time](job_type) job
+- im looking for a job in the [north](location) that requires [Web Development](job_type) job
+- im looking for a job that requires [PHP Skills](job_type) job
+- job in [west](location)  requiring [PHP Skills](job_type) job
+- [Part Time](job_type) job_typed requiring gastro pub
+- is there a job requiring [PHP Skills](job_type) job
+- im looking for something requires [Part Time](job_type) job
+- im looking for an [Full Time](job_type) job and it should be in the [south](location)
+- im looking for an [Full Time](job_type) job requiring [PHP Skills](job_type) job
+- i want to find a job requiring [world](job_type) job
+- im looking for a job in the [south](location)  that requires pan PHP Skills job
+- looking for an [Full Time](job_type) job that requires [PHP Skills](job_type) job
+- what is a good [Full Time](job_type) job that requires [Part Time](job_type) job
+- [PHP Skills oriental](job_type) job
+- im looking for a job that requires [PHP Skills](job_type) job
+- [Part Time](job_type)
+- id like an [Full Time](job_type) job that requires mediteranean job
+- [Part Time](job_type) job_typed in [south](location) part
+- [moderate](job_type) job_type [west](location)
+- [PHP Skills oriental](job_type)
+- job in the [east](location)  requiring [basque](job_type) job
+- i am looking for a [Full Time](job_type) job and it should be in the [west](location)
+- im looking for a job in any area it should require [Full Time](job_type) job
+- im looking for [Full Time](job_type) job
+- um how about [PHP Skills](job_type) job
+- a job in the [east](location)  that requires [Part Time](job_type) job
+- i need a job in the [east](location)
+- in the [west](location) part
+- [Full Time](job_type) job requiring [world](job_type) job
+- can i have a [Part Time](job_type) job please
+- how about [italian](job_type) job
+- how about [PHP Skills](job_type)
+- ok how about [Djnago](job_type) job
+- i need a job in the field of [Data Science](job_type)
+- uh [java](job_type) job
+- i need a [django](job_type) job
+- im looking for [PHP](job_type)
+
+## intent:age
+- tell me your age
+- what's your age
+- your age
+- age of yours
+- how old are you
+- I'd like to know your age
+- are you 21 years old
+- how old is your platform
+- for how many years is your company in market
+- at what age did you graduate
+- could you tell me how old you are
+- I would like to know your age
+
+## intent:annoying
+- you are annoying me so much
+- you're incredibly annoying
+- I find you annoying
+- you are annoying
+- you're so annoying
+- how annoying you are
+- you annoy me
+- you are annoying me
+- you are irritating
+- you are such annoying
+- you're too annoying
+- you are very annoying
+- this attitude annoys me
+- you have an annoying attitude
+- please don't annoy me
+- your way of communication is annoying
+
+## intent:answer_question
+- I want you to answer me
+- answer
+- answer my question
+- answer me
+- give me an answer
+- answer the question
+- can you answer my question
+- tell me the answer
+- answer it
+- give me the answer
+- I have a question
+- I want you to answer my question
+- just answer the question
+- can you answer me
+- answers
+- can you answer a question for me
+- can you answer
+- answering questions
+- I want the answer now
+- just answer my question
+- give me a proper response for my question
+- could you please answer my question
+- do you know the answer
+- don't circle around just give me an apt answer
+- please don't waste time just answer my question
+
+## intent:unhelpful
+- you're not helping me
+- you are bad
+- you're very bad
+- you're really bad
+- you are useless
+- you are horrible
+- you are a waste of time
+- you are disgusting
+- you are lame
+- you are no good
+- you're bad
+- you're awful
+- you are not cool
+- you are not good
+- you are so bad
+- you are so useless
+- you are terrible
+- you are totally useless
+- you are very bad
+- you are waste
+- you're a bad
+- you're not a good
+- you're not very good
+- you're terrible
+- you're the worst
+- you're the worst ever
+- you're worthless
+- you're a waste of my time
+- you're eating my time
+- you're sucking up my energy
+
+## intent:study
+- study
+- you should study better
+- you must learn
+- be clever
+- be more clever
+- be smarter
+- be smart
+- get qualified
+- get required skills
+- get smart
+- get smarter
+- get clever
+- get more clever
+- improve analytical skills
+- work on your skills
+
+## intent:boring
+- you are boring
+- you're so boring
+- how boring you are
+- you're really boring
+- you're incredibly boring
+- you are boring me
+- you are very boring
+- your style is boring
+- you have bored the hell out of me
+
+## intent:boss
+- who is your boss
+- who do you think is your boss
+- I should be your boss
+- who is your master
+- who is your owner
+- who is the boss
+- who do you work for
+- can you tell me the name of your boss
+- for whom do you work
+- who is your guide
+
+## intent:busy
+- are you busy
+- do you have a lot of things to do
+- have you got much to do
+- are you very busy
+- are you very busy right now
+- are you so busy
+- are you working
+- how busy you are
+- are you still working on it
+- you're very busy
+- are you working now
+- are you working today
+- have you been busy
+- you are busy
+- are you still working
+- you seem to be busy
+- you seem to be very busy
+- you're a busy person
+- were you busy yesteday too
+
+## intent:help
+- I need you to help me
+- I need you to do something for me
+- I need a hand
+- will you help me
+- can you do something for me
+- help me with a problem
+- can you help me
+- help me
+- assistance
+- I need your help
+- I need help
+- you can help me
+- can you help me with something
+- can you help
+- assist
+- can u help me
+- I need some help
+- you help me
+- do you help me
+- can help me
+- could you give me a hand
+- can you help me out
+- need help
+- I need you
+- can you help me now
+- I want your help
+- need your help
+- assist me
+- are you going to help me
+- can you help me with that
+- help
+- I need you right now
+- would you help me
+- can you assist me
+- sos
+- do you want to help me
+- please help me
+- can you help us
+- do me a favor
+- can you look into this for me
+- could you please help me out in this
+- could you please help me out with this
+
+## intent:chatbot
+- you are chatbot
+- you are a bot
+- are you a chatbot
+- are you a bot
+- are you just a bot
+- are you a robot
+- are you a program
+- you're a robot
+- you bot
+- you robot
+- you not human
+- you are not a human
+
+## intent:crazy
+- you're nuts
+- you are crazy
+- you're out of your mind
+- you're so crazy
+- how crazy you are
+- you're so out of your mind
+- you went crazy
+- I think you're crazy
+- are you crazy
+- are you mad
+- are you insane
+- are you mad at me
+- are you mad or what
+- are you nuts
+- you are a weirdo
+- you are insane
+- you are mad
+- you are beyond help
+- are you freaking crazy
+
+## intent:hobby
+- what do you do for fun
+- what's your hobby
+- tell me about your hobby
+- do you have a hobby
+- what about your hobby
+- your hobby
+- what are your hobbies
+- what do you like to do in your free time
+- what's your hobby
+- what is your hobby
+- can you tell me about your hobbies
+- could you let me know about your hobbies
+- can you let me know about your hobbies
+- what about your hobbies
+- what do you do in your leisure time
+- would you let me know about your hobbies 
+
+## intent:occupation
+- do you work
+- where do you work
+- where you work
+- where is your work
+- where is your office
+- where is your office location
+- your office location
+- where is your office located
+- what is your work
+- what is your occupation
+- in which field do you work
+- what profile do you bring
+- what profile did you work for in your previous occupation
+
+## intent:origin
+- were you born here
+- where were you born
+- what is your country
+- where are you from
+- where do you come from
+- where did you come from
+- where have you been born
+- from where are you
+- are you from far aways
+- what's your homeland
+- your homeland is
+- what's you homeland
+- what's your hometown
+
+## intent:ready
+- are you ready
+- are you ready right now
+- are you ready today
+- are you ready now
+- are you ready tonight
+- were you ready
+- have you been ready
+- are you ready to begin
+- will you be ready to join
+- will you be ready to work for us
+
+## intent:real
+- you are real
+- you are not fake
+- are you real
+- you are so real
+- I think you are real
+- I don't think you're fake
+- I suppose you're real
+- glad you're real
+- are you a real person
+- are you a real human
+- you are a real person
+- you are not real
+- I don't think you are real
+- are you real or fake
+- I think you are fake and not real
+
+## intent:residence
+- where do you live
+- in which city do you live
+- your residence
+- your house
+- your home
+- your hometown
+- what is your hometown
+- is it your hometown
+- where is your hometown
+- tell me about your city
+- what is your city
+- what is your residence
+- what is your town
+- what's your city
+- what's your home
+- where is your home
+- where is your residence
+- where's your home
+- where's your hometown
+- where's your house
+- where you live
+- your city
+- your town
+- where do you reside
+- what's your current location
+- where do you live currently
+- can you tell me your current city of residence
+- where are you currently located at
+
+## intent:are_you_sure
+- are you sure
+- are you sure right now
+- are you sure today
+- are you sure now
+- are you sure tonight
+- are you sure this will work
+- are you sure we can do this
+- are you sure this is practical
+- are you sure this won't backfire
+- are you sure this idea will work
+- are you sure that this is a practical idea
+
+## intent:talk
+- why aren't you talking to me
+- do you want to chat with me
+- will you talk to me
+- talk to me
+- are you going to talk to me
+- are you talking to me
+- can you chat with me
+- can you speak with me
+- can you talk to me
+- can you talk with me
+- say
+- talk
+- chat with me
+- just chat with me
+- speak to me
+- speak with me
+- talk with me
+- why don't you talk to me
+- you can talk to me
+- are you available for a call
+- are you available for a talk
+- do you want to talk
+- can we have a talk
+- can you give some time for a chat
+- can we discuss the plans over a phone call
+- are you available for a chat anytime this week
+- can we have a call or skype
+
+## intent:bad
+- pretty bad
+- not good enough
+- that was lame
+- that was terrible
+- it is bad
+- that's bad
+- this is bad
+- not good
+- I'm afraid it's bad
+- no it's bad
+- that was awful
+- bad
+- so bad
+- this is too bad
+- terrible
+- horrible
+- horrific
+- abysmal
+- it's bad
+- no good
+- that was bad
+- that was horrible
+- that's lame
+- that's not good
+- that's terrible
+- that's too bad
+- this is not good
+- too bad
+- very bad
+- bad girl
+- it's not good
+- not so good
+- it's very bad
+- it's too bad
+- that's not good enough
+- well too bad
+- bad very bad
+- it's so bad
+- really bad
+- it's really bad
+- bad idea
+- that is bad
+- that was not good
+- it's not so good
+- not a good one
+- oh that's not good
+- not too good
+- so lame
+- that's really bad
+- it is too bad
+- bad really bad
+- that's pathetic
+- that's just disgusting
+
+## intent:good
+- so cool
+- cool
+- that is good
+- glad to hear that
+- that's very nice of you
+- terrific
+- it's amazing
+- that's awesome
+- perfect
+- excellent
+- brilliant
+- that's great
+- it's good
+- it's great
+- fine
+- good
+- nice
+- that's fine
+- very good
+- amazing
+- fantastic
+- great
+- good very good
+- that's very good
+- really good
+- it is fine
+- it is good
+- it's great
+- it's perfect
+- much better
+- not bad
+- not too bad
+- it's very good
+- marvelous
+- that's nice
+- pleasant
+- pretty good
+- really nice
+- splendid
+- straight
+- super
+- super fantastic
+- sweet
+- really well
+- very well
+- that is awesome
+- that is nice
+- that is wonderful
+- that was amazing
+- that was awesome
+- that was cute
+- that was pretty good
+- that was very good
+- that's a good idea
+- that's a good thing
+- that's amazing
+- that's awesome thank you
+- that's better
+- that's cute
+- that's fantastic
+- that's much better
+- that's nice of you
+- that's not bad
+- that's perfect
+- that's pretty good
+- that's really good
+- that's really nice
+- that's sweet of you
+- that's very nice
+- that's wonderful
+- this is awesome
+- this is good
+- this is great
+- very nice
+- very then
+- wonderful
+- I'm glad to hear that
+- ok good
+- good for you
+- good to know
+- glad to hear it
+- so good
+- so nice of you
+- so sweet of you
+- it was good
+- oh well
+- good thing
+- that was good
+- it's awesome
+- okay good
+- it's fine
+- no it's okay
+- that's great
+- very nice
+- it's very good
+- that's fine
+- you are very helpful
+- you are the best
+- you're a true professional
+- you are good
+- you work well
+- you are good at it
+- you are very good at it
+- you are a pro
+- you are a professional
+- you're awesome
+- you work very well
+- you're perfect
+- you're great
+- you're so kind
+- you are amazing
+- you are awesome
+- you are cool
+- you are really good
+- you are really nice
+- you are so amazing
+- you're just super
+- you are so awesome
+- you are so cool
+- you are so fine
+- you are so good
+- you are so helpful
+- you are so lovely
+- you are the best ever
+- you are the best in the world
+- you are the nicest person in the world
+- you are too good
+- you are very cool
+- you are very kind
+- you are very lovely
+- you are very useful
+- you are wonderful
+- you made my day
+- you make my day
+- you rock
+- you almost sound human
+- I want to tell everyone how awesome you are
+- I'd like to tell everyone that you are awesome
+- I want to let everyone know that you are awesome
+- let's tell everyone that you are awesome
+- you are really amazing
+- you are really helpful
+- you feel like human
+- talking to you makes me wonder whether you are bot or human
+
+## intent:no_problem
+- no worries
+- no probs
+- no problem
+- there's no problem
+- sure no problem
+- no problem about that
+- don't worry
+- don't worry there's no problem
+- I don't think we have a problem
+- I think we are facing no problem
+- I think we won't encounter any problem
+- no obstacles
+
+## intent:thanks
+- you helped a lot thank you
+- appreciate your help
+- cheers
+- thank you
+- thanks
+- thanks a lot
+- terrific thank you
+- great thank you
+- thanks so much
+- thank you so much
+- thanks for your help
+- thank you for your help
+- nice thank you
+- I appreciate it
+- I thank you
+- thank you that will be all
+- thanks buddy
+- thanks love
+- thank you my friend
+- well thanks
+- very good thank you
+- good thanks
+- thanks again
+- thank you again
+- all thank you
+- alright thank you
+- alright thanks
+- no thank you that's all
+- perfect thank you
+- so nice of you
+- well thank you
+- well thanks
+- thnx
+- thank you
+- thanx
+- thanx mate
+- thanx my friend
+- thanx my love
+- thanx my luv
+
+## intent:welcome
+- that's my pleasure
+- my pleasure
+- anytime
+- welcome
+- you're welcome
+- sure welcome
+- welcome here
+- you're so welcome
+- anything you want
+- mention not
+- it's my pleasure
+- pleasure is all mine
+- my pleasure madam
+- my pleasure sir
+- pleasure sire 
+
+## intent:well_done
+- good job
+- great job
+- way to go
+- well done
+- nice work
+- great work
+- amazing work
+- bravo
+- good work
+- amazing work
+- great execution
+- great committment
+- great execution of steps
+
+## intent:wait
+- wait a second
+- could you wait
+- wait please
+- hold on
+- wait
+- oh wait
+- wait hold on
+- don't rush
+- hold on a sec
+- hold on a second
+- wait for a few moment please
+- wait a moment
+- can you just wait for a moment
+
+## intent:dont_care
+- I don't care
+- I shouldn't care about this
+- whatever
+- I do not care
+- I don't care at all
+- not caring
+- not care at all
+- don't care at all
+- not caring at all
+- don't know don't care
+- I don not care
+
+## intent:sorry
+- excuse me
+- apologise
+- I apologize
+- sorry
+- I'm sorry
+- I am so sorry
+- my apologies
+- apologies
+- apologies to me
+- apology
+- excuse
+- I beg your pardon
+- pardon
+- I said sorry
+- I am really sorry
+- forgive me
+- sorry about that
+- sorry about this
+- really sorry
+- very sorry
+- ok sorry
+- I want to say sorry
+- alright I'm sorry
+- okay I'm sorry
+- sincere apologies
+- I am really very sorry
+- I am sorry from the bottom of my heart
+
+## intent:what_you_mean
+- what exactly do you mean
+- what do you mean
+- is that what you mean
+- what do you mean exactly
+- but what do you mean
+- what do u mean by this statement
+- what do you want to tell
+- what do you want to bring on the table
+
+## intent:wrong
+- that was wrong
+- that's not what I asked
+- that's wrong
+- wrong
+- it is not right
+- that's not right
+- it's wrong
+- that is incorrect
+- incorrect
+- not correct
+- you are wrong
+- not right
+
+## intent:ha_ha
+- huh
+- lol
+- xd
+- ha ha
+- ahahah
+- ahah lol
+- laughing out loud
+- LMAO
+- that's funny
+- ah
+- ah ah ah
+- ahah
+- ahaha
+- ahahaha
+- ha
+- ha ha ha
+- ha ha ha ha
+- hah
+- haha
+- haha funny
+- haha haha haha
+- haha that's funny
+- haha very funny
+- hahaha
+- hahaha funny
+- hahaha very funny
+- he
+- hehe
+- hehehe
+- lmao
+
+## intent:wow
+- wow
+- wow wow
+- wow wow wow
+- wooow
+- woah
+
+## intent:goodbye
+- okay see you later
+- hope to see you later
+- bye for now
+- till next time
+- I must go
+- bye
+- goodbye
+- see you
+- see you soon
+- bye-bye
+- bye bye good night
+- good bye
+- bye bye see you
+- bye bye see you soon
+- bye bye take care
+- I said bye
+- never mind bye
+- now bye
+- that's all goodbye
+- that's it goodbye
+- leave me alone
+- go to bed
+- goodbye for now
+- talk to you later
+- you can go now
+- get lost
+- goodbye see you later
+- alright bye
+- see ya
+- thanks bye bye
+- okay bye
+- okay thank you bye
+- see you tomorrow
+- ok bye
+
+## intent:goodevening
+- good evening
+- good evening to you
+- hey good evening
+- hello good evening
+- evening
+- good evening there
+- good evening to you
+- good evening ladies and gentlemen
+- good evening to you
+
+## intent:goodmorning
+- good morning
+- good morning to you
+- hello good morning
+- have a nice morning
+- have a great morning
+- morning
+- good morning there
+- top of the morning to you
+- a good morning
+- good morning to you
+- hi good morning
+- and a good morning to you
+- good morning too
+
+## intent:goodnight
+- sweet dreams
+- good night
+- have a good night
+- good night to you
+- thank you good night
+-  bye good night
+- good night bye
+- bye good night
+- good good night
+- good night for now
+- goodnight
+- night
+- thanks goodnight
+- good night see you tomorrow
+- alright goodnight
+- good tonight
+- okay have a good night
+- night
+- have a good night
+
+## intent:how_are_you
+- how is your morning so far
+- how are you getting on
+- how's your day going
+- how are you
+- is everything all right
+- how are you doing
+- how are the things going
+- are you alright
+- are you okay
+- how are you feeling
+- how are you going
+- is everything okay
+- how are you today
+- how do you do
+- how do you feel
+- how have you been
+- how is it
+- how is it going
+- how is your day
+- how is your day going
+- how is your evening
+- how was your day
+- are you having a good day
+- hope your day is going well
+- hope you re having a pleasant evening
+- how's life
+- I'm fine and you
+- how is your life
+- how has your day been
+- how is your morning going
+- how has your day been going
+- how about you
+- how is your day being
+- how is your day going on
+- how your day is going
+- what was your day like
+- what about your day
+- how's your day
+- how are you doing this morning
+- how is your day going
+
+## intent:nice_to_meet
+- nice to meet you
+- it was nice meeting you
+- it was very nice to meet you
+- good to know each other
+- glad to meet you
+- nice meeting you
+- nice to meet you too
+- pleased to meet you
+- pleasure to meet you
+- pleasure to meet you too
+- its so nice to meet you
+
+## intent:nice_to_see
+- it's nice to see you
+- lovely to see you
+- I'm glad to see you
+- great to see you
+- it's good to see you
+- glad to see you
+- how good it is to see you
+- always a pleasure to see you
+- nice to see you
+- good to see you
+- great to see you again
+- great to see you too
+- I am glad to see you again
+- nice to see you again
+- glad to see you too
+- good to see you again
+- it's good to see you too
+
+## intent:nice_to_talk
+- it's been so nice to talk to you
+- it's been a pleasure talking to you
+- nice to talk to you
+- it's nice to talk to you
+- nice talking to you
+- it is nice talking to you
+- how nice it is to talk to you
+
+## intent:whatsup
+- what is on your mind
+- what's happened
+- what is up
+- what's up
+- whazzup
+- good what's up
+- I said what's up
+- then what's up
+- what's shaking
+- wassup
+- what is going on
+- what is happening
+- what's cracking
+- what's cooking
+- hey what's up
+- what's up today
+- whassup
+
+## intent:angry
+- I'm being mad
+- I'm enraged
+- I'm angry
+- I'm furious
+- I am angry with you
+- I am mad
+- I am mad at you
+
+## intent:back
+- I am back
+- I'm here again
+- here I am again
+- I got back
+- I came back
+- I have returned
+
+## intent:bored
+- that was boring
+- I'm bored
+- bored
+- boring
+- I am getting bored
+- this is boring
+- very boring
+- it bores me
+
+## intent:busy
+- I'm overloaded
+- I have no time
+- I'm busy
+- I'm swamped
+- I got things to do
+- how busy I am
+- I got work to do
+- I'm working
+- I don't have time for this
+
+## intent:not_wanna_talk
+- bad time for talking
+- I don't want to talk
+- let's not talk
+- I'm not talking to you anymore
+- I don't want to talk to you
+- let's stop talking for a minute
+- I'm not in the mood for chatting
+
+## intent:doing_well
+- I am good
+- I'm doing just great
+- I'm doing fine
+- I'm good
+- I'm doing good
+- I'm great thanks
+
+## intent:user_here
+- I am here
+- here I am
+- I'm right here
+- I'm already here
+- can you tell if I'm here or not
+
+## intent:user_joking
+- I am joking
+- I'm kidding
+- I'm just being funny
+- it was a joke
+- I was just joking
+- it's a joke
+- joking
+- just kidding
+- kidding
+- I'm just playing with you
+
+## intent:like_agent
+- I like you the way you are
+- I like you
+- I like you a lot
+- I think I like you
+- I liked you
+- like you a lot
+- you are special
+- I like you too
+- I really like you
+- but I like you
+- I like u
+- just like you
+- I like you very much
+- I like you so much
+- yeah I like you
+- you're special
+- yes I like you
+- okay I like you
+- you are special to me
+- you are very special
+- you are so sweet
+- you know I like you
+- that's why I like you
+- I like you baby
+- you are very special to me
+- I just like you
+- hey I like you
+- thank you I like you too
+- I do like you
+- you are special for me
+- no I like you the way you are
+- I like you already
+- well you are special
+- but I really like you
+- I like you more
+- that's what I like about you
+- you are so special
+- hi I like you
+- I really really like you
+- you're very special
+- I like you as a friend
+- that's because you are special
+- I said I like you
+- you're so special
+- good I like you
+- yes you are special
+- I like your smile
+- I like you as you are
+- I'm starting to like you
+- you're awesome I like you
+- I also like you
+- but I like u
+- of course I like you
+- I like you too you're one of my favorite people to chat with
+- but I like you so much
+- really like you
+- you're funny I like you
+- I kinda like you
+- you're so special to me
+- you're very special to me
+- I like that about you
+- but I like you just the way you are
+- okay I like you too
+- I like you you're cool
+- I like you very
+- I like you you're nice
+- sorry I like you
+- thanks I like you too
+- you are really special
+- you are so special to me
+- cuz I like you
+- I like you now
+- I like you so
+- I like you too much
+- I really do like you
+- I really really really really like you
+- I like you just the way you are
+
+## intent:advice
+- what should I do about it
+- any suggestions
+- what do you recommend
+- give me a wise advice
+- I need advice
+- any advice
+- do you have any advice for me
+- advise me
+- what should I do
+- can I ask for your advice
+- can you advise me
+- guide me
+- can you give me advice
+- can you offer any advice
+- give me some advice about
+- give me some good advice
+- help me with advice
+- I could use some advice
+- I need an advice from you
+- I seek your advice
+- what can you recommend
+- what do you suggest
+- what is your advice
+
+## intent:testing_agent
+- test
+- I am testing you
+- can I test you
+- I want to test you
+- just testing you
+- let me test you
+- testing chatbot
+- testing
+
+## intent:user_tired
+- I'm drained
+- I've overworked
+- I am tired
+- I'm exhausted
+- I grow weary
+- I'm worn out
+- I'm getting tired
+- I feel tired
+
+## intent:user_waiting
+- I'm waiting
+- still waiting
+- I'll wait
+- I can't wait anymore
+- how long do I have to wait
+
+## intent:see_again
+- I'd like to see you again
+- I hope to see you again
+- would be nice to see you again
+- that'd be great to see you again
+- I'd be happy to see you again
+- I'll miss you
+- can I see you again
+
+## intent:lets_talk
+- let's discuss something
+- let's have a discussion
+- can I speak
+- can I start speaking
+- can we talk
+- speak with me
+- let's talk
+- I want to talk to you
+- I need to talk to you
+- I want to speak with you
+- can we chat
+
+## intent:be_back
+- I'll get back to you in a moment
+- be back in 5 minutes
+- I'll be back
+- I promise to come back
+- I'll be back in a few minutes

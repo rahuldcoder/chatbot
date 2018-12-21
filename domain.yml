@@ -1,0 +1,29 @@
+intents:
+  - greet
+  - recruiter_affirm
+  - recruiter_chat
+  - jobseeker_affirm
+  - JobSeeker_detail
+
+actions:
+- utter_greet
+- utter_how_can_I_help
+- utter_let_me_check_for_candidates
+- utter_give_me_details
+- utter_great_let_me_check_if_we_have_anything
+
+templates:
+  utter_greet:
+  - text: "Hey! How are you?"
+
+  utter_how_can_I_help:
+  - text: "How can I help you?"
+
+  utter_let_me_check_for_candidates:
+  - text: "Lemme check for eligible candidates"
+
+  utter_give_me_details:
+  - text: "Can you tell me more about yourself?"
+
+  utter_great_let_me_check_if_we_have_anything:
+  - text: "Great! lemme see if I have anything for you"

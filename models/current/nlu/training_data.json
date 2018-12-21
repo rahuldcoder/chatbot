@@ -1,0 +1,6345 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "greet",
+        "text": "hi there"
+      },
+      {
+        "intent": "greet",
+        "text": "hello there"
+      },
+      {
+        "intent": "greet",
+        "text": "hey"
+      },
+      {
+        "intent": "greet",
+        "text": "hi"
+      },
+      {
+        "intent": "greet",
+        "text": "hey bot"
+      },
+      {
+        "intent": "greet",
+        "text": "good morning"
+      },
+      {
+        "intent": "greet",
+        "text": "goodmorning"
+      },
+      {
+        "intent": "greet",
+        "text": "hello"
+      },
+      {
+        "intent": "greet",
+        "text": "goodevening"
+      },
+      {
+        "intent": "greet",
+        "text": "goodafternoon"
+      },
+      {
+        "intent": "greet",
+        "text": "good evening"
+      },
+      {
+        "intent": "greet",
+        "text": "morning"
+      },
+      {
+        "intent": "greet",
+        "text": "good afternoon"
+      },
+      {
+        "intent": "greet",
+        "text": "hi bot"
+      },
+      {
+        "intent": "greet",
+        "text": "hello bot"
+      },
+      {
+        "intent": "greet",
+        "text": "good morning bot"
+      },
+      {
+        "intent": "greet",
+        "text": "good afternoon bot"
+      },
+      {
+        "intent": "greet",
+        "text": "good evening bot"
+      },
+      {
+        "intent": "greet",
+        "text": "good day bot"
+      },
+      {
+        "intent": "greet",
+        "text": "afternoon"
+      },
+      {
+        "intent": "greet",
+        "text": "afternoon bot"
+      },
+      {
+        "intent": "greet",
+        "text": "morning bot"
+      },
+      {
+        "intent": "greet",
+        "text": "evening bot"
+      },
+      {
+        "intent": "greet",
+        "text": "what's up bot"
+      },
+      {
+        "intent": "greet",
+        "text": "sup"
+      },
+      {
+        "intent": "greet",
+        "text": "how is it going"
+      },
+      {
+        "intent": "recruiter_chat",
+        "entities": [
+          {
+            "start": 19,
+            "end": 22,
+            "value": "PHP",
+            "entity": "job_type"
+          }
+        ],
+        "text": "I am looking for a PHP developer"
+      },
+      {
+        "intent": "recruiter_chat",
+        "entities": [
+          {
+            "start": 17,
+            "end": 25,
+            "value": "freshers",
+            "entity": "candidate_type"
+          }
+        ],
+        "text": "I am looking for freshers"
+      },
+      {
+        "intent": "jobseeker_affirm",
+        "entities": [
+          {
+            "start": 7,
+            "end": 16,
+            "value": "jobseeker",
+            "entity": "job_seek"
+          }
+        ],
+        "text": "I am a jobseeker"
+      },
+      {
+        "intent": "jobseeker_affirm",
+        "entities": [
+          {
+            "start": 23,
+            "end": 26,
+            "value": "PHP",
+            "entity": "job_type"
+          }
+        ],
+        "text": "Hey i am looking for a PHP"
+      },
+      {
+        "intent": "jobseeker_affirm",
+        "entities": [
+          {
+            "start": 66,
+            "end": 72,
+            "value": "google",
+            "entity": "company_name"
+          }
+        ],
+        "text": "Hello i am a final year student looking for a job in your company google"
+      },
+      {
+        "intent": "jobseeker_affirm",
+        "entities": [
+          {
+            "start": 7,
+            "end": 14,
+            "value": "fresher",
+            "entity": "candidate_type"
+          },
+          {
+            "start": 45,
+            "end": 51,
+            "value": "google",
+            "entity": "company_name"
+          }
+        ],
+        "text": "I am a fresher looking for an opportunity in google"
+      },
+      {
+        "intent": "jobseeker_affirm",
+        "entities": [
+          {
+            "start": 21,
+            "end": 28,
+            "value": "fresher",
+            "entity": "candidate_type"
+          }
+        ],
+        "text": "I am an enthusiastic fresher looking for an opportunity to learn and grow"
+      },
+      {
+        "intent": "recruiter_affirm",
+        "text": "I am a recruiter"
+      },
+      {
+        "intent": "recruiter_affirm",
+        "entities": [
+          {
+            "start": 36,
+            "end": 42,
+            "value": "google",
+            "entity": "company_name"
+          }
+        ],
+        "text": "I am responsible for recruitment in google"
+      },
+      {
+        "intent": "recruiter_affirm",
+        "entities": [
+          {
+            "start": 20,
+            "end": 26,
+            "value": "google",
+            "entity": "company_name"
+          }
+        ],
+        "text": "I am a recruiter at google"
+      },
+      {
+        "intent": "demo",
+        "text": "yes please show me your demo"
+      },
+      {
+        "intent": "demo",
+        "text": "demo"
+      },
+      {
+        "intent": "demo",
+        "text": "demo please"
+      },
+      {
+        "intent": "demo",
+        "text": "yes demo"
+      },
+      {
+        "intent": "demo",
+        "text": "website tour"
+      },
+      {
+        "intent": "demo",
+        "text": "yes please give me brief introduction about your company"
+      },
+      {
+        "intent": "demo",
+        "text": "yes please give me brief introduction about your venture"
+      },
+      {
+        "intent": "demo",
+        "text": "brief introduction about your venture"
+      },
+      {
+        "intent": "demo",
+        "text": "brief introduction about your company"
+      },
+      {
+        "intent": "demo",
+        "text": "introduction"
+      },
+      {
+        "intent": "demo",
+        "text": "how do you work"
+      },
+      {
+        "intent": "demo",
+        "text": "what are your procedures with jobseekers"
+      },
+      {
+        "intent": "demo",
+        "text": "how do your company work"
+      },
+      {
+        "intent": "demo",
+        "text": "what is the product of your company"
+      },
+      {
+        "intent": "demo",
+        "text": "can you give a brief demo"
+      },
+      {
+        "intent": "demo",
+        "text": "a brief demo would be helpful"
+      },
+      {
+        "intent": "demo",
+        "text": "I could use a little briefing"
+      },
+      {
+        "intent": "JobSeeker_detail",
+        "entities": [
+          {
+            "start": 11,
+            "end": 19,
+            "value": "Abhishek",
+            "entity": "name"
+          }
+        ],
+        "text": "My name is Abhishek"
+      },
+      {
+        "intent": "JobSeeker_detail",
+        "entities": [
+          {
+            "start": 12,
+            "end": 40,
+            "value": "abhishek.shah24499@gmail.com",
+            "entity": "mail"
+          }
+        ],
+        "text": "my email is abhishek.shah24499@gmail.com"
+      },
+      {
+        "intent": "JobSeeker_detail",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "shah",
+            "entity": "name"
+          }
+        ],
+        "text": "shah"
+      },
+      {
+        "intent": "JobSeeker_detail",
+        "entities": [
+          {
+            "start": 0,
+            "end": 18,
+            "value": "abhishek@gmail.com",
+            "entity": "mail"
+          }
+        ],
+        "text": "abhishek@gmail.com"
+      },
+      {
+        "intent": "JobSeeker_detail",
+        "entities": [
+          {
+            "start": 16,
+            "end": 24,
+            "value": "Abhishek",
+            "entity": "name"
+          }
+        ],
+        "text": "you can call me Abhishek"
+      },
+      {
+        "intent": "JobSeeker_detail",
+        "entities": [
+          {
+            "start": 18,
+            "end": 26,
+            "value": "Abhishek",
+            "entity": "name"
+          }
+        ],
+        "text": "people know me by Abhishek"
+      },
+      {
+        "intent": "JobSeeker_detail",
+        "entities": [
+          {
+            "start": 21,
+            "end": 39,
+            "value": "abhishek@gmail.com",
+            "entity": "mail"
+          }
+        ],
+        "text": "please connect me at abhishek@gmail.com"
+      },
+      {
+        "intent": "JobSeeker_detail",
+        "entities": [
+          {
+            "start": 19,
+            "end": 37,
+            "value": "abhishek@gmail.com",
+            "entity": "mail"
+          }
+        ],
+        "text": "you can mail me at abhishek@gmail.com"
+      },
+      {
+        "intent": "JobSeeker_detail",
+        "entities": [
+          {
+            "start": 38,
+            "end": 56,
+            "value": "abhishek@gmail.com",
+            "entity": "mail"
+          }
+        ],
+        "text": "please send me the job description at abhishek@gmail.com"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 15,
+            "value": "PHP Development",
+            "entity": "job_type"
+          }
+        ],
+        "text": "PHP Development job"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 10,
+            "end": 26,
+            "value": "Django Developer",
+            "entity": "job_type"
+          }
+        ],
+        "text": "how about Django Developer"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 17,
+            "end": 29,
+            "value": "Data Science",
+            "entity": "job_type"
+          },
+          {
+            "start": 37,
+            "end": 45,
+            "value": "Banglore",
+            "entity": "location"
+          }
+        ],
+        "text": "im looking for a Data Science in the Banglore"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 5,
+            "end": 12,
+            "value": "10 lacs",
+            "entity": "package"
+          },
+          {
+            "start": 31,
+            "end": 40,
+            "value": "Hyderabad",
+            "entity": "location"
+          }
+        ],
+        "text": "find 10 lacs ranged job in the Hyderabad"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 11,
+            "end": 29,
+            "value": "Business Analytics",
+            "entity": "job_type"
+          }
+        ],
+        "text": "what about Business Analytics job"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 13,
+            "end": 31,
+            "value": "Software Developer",
+            "entity": "job_type"
+          }
+        ],
+        "text": "uh how about Software Developer job"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 21,
+            "end": 32,
+            "value": "Development",
+            "entity": "job_type"
+          }
+        ],
+        "text": "yea im looking for a Development job"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 2,
+            "end": 15,
+            "value": "PHP Developer",
+            "entity": "job_type"
+          },
+          {
+            "start": 27,
+            "end": 31,
+            "value": "west",
+            "entity": "location"
+          }
+        ],
+        "text": "a PHP Developer job in the west"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 15,
+            "end": 27,
+            "value": "Data Science",
+            "entity": "job_type"
+          }
+        ],
+        "text": "im looking for Data Science job"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 9,
+            "end": 24,
+            "value": "PHP development",
+            "entity": "job_type"
+          },
+          {
+            "start": 36,
+            "end": 41,
+            "value": "Delhi",
+            "entity": "location"
+          }
+        ],
+        "text": "i need a PHP development job in the Delhi"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 16,
+            "value": "Java Development",
+            "entity": "job_type"
+          },
+          {
+            "start": 28,
+            "end": 32,
+            "value": "east",
+            "entity": "location"
+          }
+        ],
+        "text": "Java Development job in the east of town"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 8,
+            "end": 26,
+            "value": "Django Development",
+            "entity": "job_type"
+          }
+        ],
+        "text": "id like Django Development job"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 18,
+            "end": 35,
+            "value": "Djang Development",
+            "entity": "job_type"
+          },
+          {
+            "start": 47,
+            "end": 52,
+            "value": "Delhi",
+            "entity": "location"
+          }
+        ],
+        "text": "im looking for an Djang Development job in the Delhi town"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "PHP",
+            "entity": "job_type"
+          }
+        ],
+        "text": "PHP job"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "Delhi",
+            "entity": "location"
+          },
+          {
+            "start": 6,
+            "end": 10,
+            "value": "Java",
+            "entity": "job_type"
+          }
+        ],
+        "text": "Delhi Java"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 13,
+            "value": "Web Developer",
+            "entity": "job_type"
+          },
+          {
+            "start": 25,
+            "end": 30,
+            "value": "south",
+            "entity": "location"
+          }
+        ],
+        "text": "Web Developer job in the south"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "Bangalore",
+            "entity": "location"
+          }
+        ],
+        "text": "Bangalore"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "Delhi",
+            "entity": "location"
+          }
+        ],
+        "text": "Delhi part"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 15,
+            "value": "PHP development",
+            "entity": "job_type"
+          }
+        ],
+        "text": "PHP developmentjob"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 7,
+            "end": 22,
+            "value": "PHP development",
+            "entity": "job_type"
+          }
+        ],
+        "text": "Search PHP development job"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 9,
+            "end": 24,
+            "value": "Web development",
+            "entity": "job_type"
+          }
+        ],
+        "text": "i need a Web development job_typed job"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 9,
+            "end": 22,
+            "value": "Web Developer",
+            "entity": "job_type"
+          },
+          {
+            "start": 44,
+            "end": 53,
+            "value": "Hyderabad",
+            "entity": "location"
+          }
+        ],
+        "text": "i want a Web Developer job_typed job in the Hyderabad"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 9,
+            "end": 27,
+            "value": "Software Developer",
+            "entity": "job_type"
+          },
+          {
+            "start": 39,
+            "end": 48,
+            "value": "Hyderabad",
+            "entity": "location"
+          }
+        ],
+        "text": "i want a Software Developer job in the Hyderabad"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 37,
+            "end": 52,
+            "value": "Web Development",
+            "entity": "job_type"
+          }
+        ],
+        "text": "id like a job in any area that is on Web Development"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 28,
+            "end": 33,
+            "value": "south",
+            "entity": "location"
+          },
+          {
+            "start": 37,
+            "end": 50,
+            "value": "Web Developer",
+            "entity": "job_type"
+          }
+        ],
+        "text": "im looking for a job in the south on Web Developer job"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 14,
+            "end": 27,
+            "value": "Web Developer",
+            "entity": "job_type"
+          }
+        ],
+        "text": "um what about Web Developer job"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 17,
+            "end": 30,
+            "value": "Web Developer",
+            "entity": "job_type"
+          },
+          {
+            "start": 42,
+            "end": 47,
+            "value": "north",
+            "entity": "location"
+          }
+        ],
+        "text": "im looking for a Web Developer job in the north"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 8,
+            "end": 17,
+            "value": "Hyderabad",
+            "entity": "location"
+          }
+        ],
+        "text": "jobs in Hyderabad"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 15,
+            "end": 33,
+            "value": "Web Developer Jobs",
+            "entity": "job_type"
+          }
+        ],
+        "text": "im looking for Web Developer Jobs job"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "Hyderabad",
+            "entity": "location"
+          }
+        ],
+        "text": "Hyderabad"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 20,
+            "end": 33,
+            "value": "Web Developer",
+            "entity": "job_type"
+          }
+        ],
+        "text": "ah im looking for a Web Developer job"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 15,
+            "end": 28,
+            "value": "Web Developer",
+            "entity": "job_type"
+          }
+        ],
+        "text": "im looking for Web Developer job"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 35,
+            "end": 50,
+            "value": "Web Development",
+            "entity": "job_type"
+          }
+        ],
+        "text": "im looking for a job that involves Web Development job"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 10,
+            "end": 23,
+            "value": "Web Developer",
+            "entity": "job_type"
+          }
+        ],
+        "text": "how about Web Developer job"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 28,
+            "end": 43,
+            "value": "Web Development",
+            "entity": "job_type"
+          }
+        ],
+        "text": "can i get a job related to  Web Development job"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 15,
+            "value": "Web Development",
+            "entity": "job_type"
+          }
+        ],
+        "text": "Web Development job"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 28,
+            "end": 32,
+            "value": "west",
+            "entity": "location"
+          },
+          {
+            "start": 36,
+            "end": 51,
+            "value": "Web Development",
+            "entity": "job_type"
+          }
+        ],
+        "text": "im looking for a job in the west on Web Development job"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 9,
+            "end": 14,
+            "value": "south",
+            "entity": "location"
+          },
+          {
+            "start": 19,
+            "end": 34,
+            "value": "Web Development",
+            "entity": "job_type"
+          }
+        ],
+        "text": "jobs in  south  on Web Development job"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 15,
+            "value": "Web Development",
+            "entity": "job_type"
+          }
+        ],
+        "text": "Web Development jobs"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 28,
+            "end": 43,
+            "value": "Web Development",
+            "entity": "job_type"
+          }
+        ],
+        "text": "how about one that involves Web Development job"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 15,
+            "value": "Web Development",
+            "entity": "job_type"
+          }
+        ],
+        "text": "Web Development"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 15,
+            "end": 30,
+            "value": "Web Development",
+            "entity": "job_type"
+          },
+          {
+            "start": 38,
+            "end": 47,
+            "value": "Full Time",
+            "entity": "job_type"
+          }
+        ],
+        "text": "im looking for Web Development job in Full Time range"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 17,
+            "end": 26,
+            "value": "Full Time",
+            "entity": "job_type"
+          },
+          {
+            "start": 42,
+            "end": 57,
+            "value": "Web Development",
+            "entity": "job_type"
+          }
+        ],
+        "text": "i want to find a Full Time job that is on Web Development job"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 17,
+            "end": 26,
+            "value": "Part Time",
+            "entity": "job_type"
+          }
+        ],
+        "text": "im looking for a Part Time job_typed"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 14,
+            "end": 23,
+            "value": "Full Time",
+            "entity": "job_type"
+          }
+        ],
+        "text": "looking for a Full Time job"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 18,
+            "end": 27,
+            "value": "Full Time",
+            "entity": "job_type"
+          }
+        ],
+        "text": "id like to find a Full Time job"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 21,
+            "end": 30,
+            "value": "Full Time",
+            "entity": "job_type"
+          }
+        ],
+        "text": "i want a job that is Full Time job"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 10,
+            "end": 19,
+            "value": "Full Time",
+            "entity": "job_type"
+          }
+        ],
+        "text": "how about Full Time"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 28,
+            "end": 32,
+            "value": "east",
+            "entity": "location"
+          }
+        ],
+        "text": "im looking for a job on the east  that are Full Time"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 4,
+            "end": 8,
+            "value": "west",
+            "entity": "location"
+          }
+        ],
+        "text": "the west"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 17,
+            "end": 26,
+            "value": "Full Time",
+            "entity": "job_type"
+          },
+          {
+            "start": 51,
+            "end": 66,
+            "value": "Web Development",
+            "entity": "job_type"
+          }
+        ],
+        "text": "i want to find a Full Time job and it should be on Web Development job"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 4,
+            "end": 13,
+            "value": "Full Time",
+            "entity": "job_type"
+          }
+        ],
+        "text": "how Full Time"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 10,
+            "end": 19,
+            "value": "Full Time",
+            "entity": "job_type"
+          }
+        ],
+        "text": "how about Full Time job"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 22,
+            "end": 31,
+            "value": "Full Time",
+            "entity": "job_type"
+          },
+          {
+            "start": 49,
+            "end": 54,
+            "value": "north",
+            "entity": "location"
+          }
+        ],
+        "text": "looking for something Full Time job_typed in the north side of town"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 4,
+            "end": 9,
+            "value": "south",
+            "entity": "location"
+          },
+          {
+            "start": 34,
+            "end": 43,
+            "value": "Full Time",
+            "entity": "job_type"
+          }
+        ],
+        "text": "the south  id like a job that are Full Time job"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 9,
+            "end": 18,
+            "value": "Full Time",
+            "entity": "job_type"
+          },
+          {
+            "start": 32,
+            "end": 41,
+            "value": "Full Time",
+            "entity": "job_type"
+          }
+        ],
+        "text": "i need a Full Time job that are Full Time job"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "Full Time",
+            "entity": "job_type"
+          }
+        ],
+        "text": "Full Time"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 18,
+            "end": 27,
+            "value": "Part Time",
+            "entity": "job_type"
+          },
+          {
+            "start": 49,
+            "end": 53,
+            "value": "east",
+            "entity": "location"
+          }
+        ],
+        "text": "id like to find a Part Time job_typed job in the east"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 14,
+            "end": 23,
+            "value": "Full Time",
+            "entity": "job_type"
+          },
+          {
+            "start": 50,
+            "end": 64,
+            "value": "Web Devlopment",
+            "entity": "job_type"
+          }
+        ],
+        "text": "looking for a Full Time job_typed job that is on  Web Devlopment"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 13,
+            "end": 22,
+            "value": "Full Time",
+            "entity": "job_type"
+          }
+        ],
+        "text": "i would like Full Time job"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 17,
+            "end": 26,
+            "value": "Full Time",
+            "entity": "job_type"
+          }
+        ],
+        "text": "hi looking for a Full Time job_typed job"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 29,
+            "end": 51,
+            "value": "Full stack Development",
+            "entity": "job_type"
+          }
+        ],
+        "text": "looking for a job that is on Full stack Development job"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 10,
+            "end": 19,
+            "value": "Full Time",
+            "entity": "job_type"
+          },
+          {
+            "start": 35,
+            "end": 50,
+            "value": "App Development",
+            "entity": "job_type"
+          }
+        ],
+        "text": "i want an Full Time job that is on App Development job"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 17,
+            "end": 26,
+            "value": "Full Time",
+            "entity": "job_type"
+          },
+          {
+            "start": 53,
+            "end": 68,
+            "value": "App Development",
+            "entity": "job_type"
+          }
+        ],
+        "text": "i want to find a Full Time job_typed job that are on App Development job"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 15,
+            "value": "App Development",
+            "entity": "job_type"
+          }
+        ],
+        "text": "App Development"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 10,
+            "end": 19,
+            "value": "Full Time",
+            "entity": "job_type"
+          }
+        ],
+        "text": "how about Full Time"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 18,
+            "end": 27,
+            "value": "Full Time",
+            "entity": "job_type"
+          }
+        ],
+        "text": "hi im looking for Full Time job"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 15,
+            "end": 24,
+            "value": "Full Time",
+            "entity": "job_type"
+          },
+          {
+            "start": 36,
+            "end": 41,
+            "value": "north",
+            "entity": "location"
+          }
+        ],
+        "text": "i would like a Full Time job in the north"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 2,
+            "end": 11,
+            "value": "Full Time",
+            "entity": "job_type"
+          },
+          {
+            "start": 23,
+            "end": 27,
+            "value": "west",
+            "entity": "location"
+          }
+        ],
+        "text": "a Full Time job in the west"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 14,
+            "end": 23,
+            "value": "Full Time",
+            "entity": "job_type"
+          },
+          {
+            "start": 35,
+            "end": 40,
+            "value": "south",
+            "entity": "location"
+          }
+        ],
+        "text": "looking for a Full Time job in the south"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 13,
+            "end": 22,
+            "value": "Full Time",
+            "entity": "job_type"
+          }
+        ],
+        "text": "job any area Full Time job"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 28,
+            "end": 33,
+            "value": "north",
+            "entity": "location"
+          }
+        ],
+        "text": "im looking for a job in the north"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 11,
+            "end": 20,
+            "value": "Full Time",
+            "entity": "job_type"
+          }
+        ],
+        "text": "what about Full Time job"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 10,
+            "end": 19,
+            "value": "Full Time",
+            "entity": "job_type"
+          }
+        ],
+        "text": "how about Full Time job"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 35,
+            "end": 44,
+            "value": "Full Time",
+            "entity": "job_type"
+          }
+        ],
+        "text": "im looking for a job that requires Full Time job"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 28,
+            "end": 33,
+            "value": "north",
+            "entity": "location"
+          },
+          {
+            "start": 48,
+            "end": 63,
+            "value": "Web Development",
+            "entity": "job_type"
+          }
+        ],
+        "text": "im looking for a job in the north that requires Web Development job"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 35,
+            "end": 45,
+            "value": "PHP Skills",
+            "entity": "job_type"
+          }
+        ],
+        "text": "im looking for a job that requires PHP Skills job"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 7,
+            "end": 11,
+            "value": "west",
+            "entity": "location"
+          },
+          {
+            "start": 23,
+            "end": 33,
+            "value": "PHP Skills",
+            "entity": "job_type"
+          }
+        ],
+        "text": "job in west  requiring PHP Skills job"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "Part Time",
+            "entity": "job_type"
+          }
+        ],
+        "text": "Part Time job_typed requiring gastro pub"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 25,
+            "end": 35,
+            "value": "PHP Skills",
+            "entity": "job_type"
+          }
+        ],
+        "text": "is there a job requiring PHP Skills job"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 34,
+            "end": 43,
+            "value": "Part Time",
+            "entity": "job_type"
+          }
+        ],
+        "text": "im looking for something requires Part Time job"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 18,
+            "end": 27,
+            "value": "Full Time",
+            "entity": "job_type"
+          },
+          {
+            "start": 56,
+            "end": 61,
+            "value": "south",
+            "entity": "location"
+          }
+        ],
+        "text": "im looking for an Full Time job and it should be in the south"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 18,
+            "end": 27,
+            "value": "Full Time",
+            "entity": "job_type"
+          },
+          {
+            "start": 42,
+            "end": 52,
+            "value": "PHP Skills",
+            "entity": "job_type"
+          }
+        ],
+        "text": "im looking for an Full Time job requiring PHP Skills job"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 31,
+            "end": 36,
+            "value": "world",
+            "entity": "job_type"
+          }
+        ],
+        "text": "i want to find a job requiring world job"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 28,
+            "end": 33,
+            "value": "south",
+            "entity": "location"
+          }
+        ],
+        "text": "im looking for a job in the south  that requires pan PHP Skills job"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 15,
+            "end": 24,
+            "value": "Full Time",
+            "entity": "job_type"
+          },
+          {
+            "start": 43,
+            "end": 53,
+            "value": "PHP Skills",
+            "entity": "job_type"
+          }
+        ],
+        "text": "looking for an Full Time job that requires PHP Skills job"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 15,
+            "end": 24,
+            "value": "Full Time",
+            "entity": "job_type"
+          },
+          {
+            "start": 43,
+            "end": 52,
+            "value": "Part Time",
+            "entity": "job_type"
+          }
+        ],
+        "text": "what is a good Full Time job that requires Part Time job"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 19,
+            "value": "PHP Skills oriental",
+            "entity": "job_type"
+          }
+        ],
+        "text": "PHP Skills oriental job"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 35,
+            "end": 45,
+            "value": "PHP Skills",
+            "entity": "job_type"
+          }
+        ],
+        "text": "im looking for a job that requires PHP Skills job"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "Part Time",
+            "entity": "job_type"
+          }
+        ],
+        "text": "Part Time"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 11,
+            "end": 20,
+            "value": "Full Time",
+            "entity": "job_type"
+          }
+        ],
+        "text": "id like an Full Time job that requires mediteranean job"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "Part Time",
+            "entity": "job_type"
+          },
+          {
+            "start": 23,
+            "end": 28,
+            "value": "south",
+            "entity": "location"
+          }
+        ],
+        "text": "Part Time job_typed in south part"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "moderate",
+            "entity": "job_type"
+          },
+          {
+            "start": 18,
+            "end": 22,
+            "value": "west",
+            "entity": "location"
+          }
+        ],
+        "text": "moderate job_type west"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 19,
+            "value": "PHP Skills oriental",
+            "entity": "job_type"
+          }
+        ],
+        "text": "PHP Skills oriental"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 11,
+            "end": 15,
+            "value": "east",
+            "entity": "location"
+          },
+          {
+            "start": 27,
+            "end": 33,
+            "value": "basque",
+            "entity": "job_type"
+          }
+        ],
+        "text": "job in the east  requiring basque job"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 19,
+            "end": 28,
+            "value": "Full Time",
+            "entity": "job_type"
+          },
+          {
+            "start": 57,
+            "end": 61,
+            "value": "west",
+            "entity": "location"
+          }
+        ],
+        "text": "i am looking for a Full Time job and it should be in the west"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 51,
+            "end": 60,
+            "value": "Full Time",
+            "entity": "job_type"
+          }
+        ],
+        "text": "im looking for a job in any area it should require Full Time job"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 15,
+            "end": 24,
+            "value": "Full Time",
+            "entity": "job_type"
+          }
+        ],
+        "text": "im looking for Full Time job"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 13,
+            "end": 23,
+            "value": "PHP Skills",
+            "entity": "job_type"
+          }
+        ],
+        "text": "um how about PHP Skills job"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 13,
+            "end": 17,
+            "value": "east",
+            "entity": "location"
+          },
+          {
+            "start": 33,
+            "end": 42,
+            "value": "Part Time",
+            "entity": "job_type"
+          }
+        ],
+        "text": "a job in the east  that requires Part Time job"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 20,
+            "end": 24,
+            "value": "east",
+            "entity": "location"
+          }
+        ],
+        "text": "i need a job in the east"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 7,
+            "end": 11,
+            "value": "west",
+            "entity": "location"
+          }
+        ],
+        "text": "in the west part"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "Full Time",
+            "entity": "job_type"
+          },
+          {
+            "start": 24,
+            "end": 29,
+            "value": "world",
+            "entity": "job_type"
+          }
+        ],
+        "text": "Full Time job requiring world job"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 13,
+            "end": 22,
+            "value": "Part Time",
+            "entity": "job_type"
+          }
+        ],
+        "text": "can i have a Part Time job please"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 10,
+            "end": 17,
+            "value": "italian",
+            "entity": "job_type"
+          }
+        ],
+        "text": "how about italian job"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 10,
+            "end": 20,
+            "value": "PHP Skills",
+            "entity": "job_type"
+          }
+        ],
+        "text": "how about PHP Skills"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 13,
+            "end": 19,
+            "value": "Djnago",
+            "entity": "job_type"
+          }
+        ],
+        "text": "ok how about Djnago job"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 29,
+            "end": 41,
+            "value": "Data Science",
+            "entity": "job_type"
+          }
+        ],
+        "text": "i need a job in the field of Data Science"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 3,
+            "end": 7,
+            "value": "java",
+            "entity": "job_type"
+          }
+        ],
+        "text": "uh java job"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 9,
+            "end": 15,
+            "value": "django",
+            "entity": "job_type"
+          }
+        ],
+        "text": "i need a django job"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 15,
+            "end": 18,
+            "value": "PHP",
+            "entity": "job_type"
+          }
+        ],
+        "text": "im looking for PHP"
+      },
+      {
+        "intent": "age",
+        "text": "tell me your age"
+      },
+      {
+        "intent": "age",
+        "text": "what's your age"
+      },
+      {
+        "intent": "age",
+        "text": "your age"
+      },
+      {
+        "intent": "age",
+        "text": "age of yours"
+      },
+      {
+        "intent": "age",
+        "text": "how old are you"
+      },
+      {
+        "intent": "age",
+        "text": "I'd like to know your age"
+      },
+      {
+        "intent": "age",
+        "text": "are you 21 years old"
+      },
+      {
+        "intent": "age",
+        "text": "how old is your platform"
+      },
+      {
+        "intent": "age",
+        "text": "for how many years is your company in market"
+      },
+      {
+        "intent": "age",
+        "text": "at what age did you graduate"
+      },
+      {
+        "intent": "age",
+        "text": "could you tell me how old you are"
+      },
+      {
+        "intent": "age",
+        "text": "I would like to know your age"
+      },
+      {
+        "intent": "annoying",
+        "text": "you are annoying me so much"
+      },
+      {
+        "intent": "annoying",
+        "text": "you're incredibly annoying"
+      },
+      {
+        "intent": "annoying",
+        "text": "I find you annoying"
+      },
+      {
+        "intent": "annoying",
+        "text": "you are annoying"
+      },
+      {
+        "intent": "annoying",
+        "text": "you're so annoying"
+      },
+      {
+        "intent": "annoying",
+        "text": "how annoying you are"
+      },
+      {
+        "intent": "annoying",
+        "text": "you annoy me"
+      },
+      {
+        "intent": "annoying",
+        "text": "you are annoying me"
+      },
+      {
+        "intent": "annoying",
+        "text": "you are irritating"
+      },
+      {
+        "intent": "annoying",
+        "text": "you are such annoying"
+      },
+      {
+        "intent": "annoying",
+        "text": "you're too annoying"
+      },
+      {
+        "intent": "annoying",
+        "text": "you are very annoying"
+      },
+      {
+        "intent": "annoying",
+        "text": "this attitude annoys me"
+      },
+      {
+        "intent": "annoying",
+        "text": "you have an annoying attitude"
+      },
+      {
+        "intent": "annoying",
+        "text": "please don't annoy me"
+      },
+      {
+        "intent": "annoying",
+        "text": "your way of communication is annoying"
+      },
+      {
+        "intent": "answer_question",
+        "text": "I want you to answer me"
+      },
+      {
+        "intent": "answer_question",
+        "text": "answer"
+      },
+      {
+        "intent": "answer_question",
+        "text": "answer my question"
+      },
+      {
+        "intent": "answer_question",
+        "text": "answer me"
+      },
+      {
+        "intent": "answer_question",
+        "text": "give me an answer"
+      },
+      {
+        "intent": "answer_question",
+        "text": "answer the question"
+      },
+      {
+        "intent": "answer_question",
+        "text": "can you answer my question"
+      },
+      {
+        "intent": "answer_question",
+        "text": "tell me the answer"
+      },
+      {
+        "intent": "answer_question",
+        "text": "answer it"
+      },
+      {
+        "intent": "answer_question",
+        "text": "give me the answer"
+      },
+      {
+        "intent": "answer_question",
+        "text": "I have a question"
+      },
+      {
+        "intent": "answer_question",
+        "text": "I want you to answer my question"
+      },
+      {
+        "intent": "answer_question",
+        "text": "just answer the question"
+      },
+      {
+        "intent": "answer_question",
+        "text": "can you answer me"
+      },
+      {
+        "intent": "answer_question",
+        "text": "answers"
+      },
+      {
+        "intent": "answer_question",
+        "text": "can you answer a question for me"
+      },
+      {
+        "intent": "answer_question",
+        "text": "can you answer"
+      },
+      {
+        "intent": "answer_question",
+        "text": "answering questions"
+      },
+      {
+        "intent": "answer_question",
+        "text": "I want the answer now"
+      },
+      {
+        "intent": "answer_question",
+        "text": "just answer my question"
+      },
+      {
+        "intent": "answer_question",
+        "text": "give me a proper response for my question"
+      },
+      {
+        "intent": "answer_question",
+        "text": "could you please answer my question"
+      },
+      {
+        "intent": "answer_question",
+        "text": "do you know the answer"
+      },
+      {
+        "intent": "answer_question",
+        "text": "don't circle around just give me an apt answer"
+      },
+      {
+        "intent": "answer_question",
+        "text": "please don't waste time just answer my question"
+      },
+      {
+        "intent": "unhelpful",
+        "text": "you're not helping me"
+      },
+      {
+        "intent": "unhelpful",
+        "text": "you are bad"
+      },
+      {
+        "intent": "unhelpful",
+        "text": "you're very bad"
+      },
+      {
+        "intent": "unhelpful",
+        "text": "you're really bad"
+      },
+      {
+        "intent": "unhelpful",
+        "text": "you are useless"
+      },
+      {
+        "intent": "unhelpful",
+        "text": "you are horrible"
+      },
+      {
+        "intent": "unhelpful",
+        "text": "you are a waste of time"
+      },
+      {
+        "intent": "unhelpful",
+        "text": "you are disgusting"
+      },
+      {
+        "intent": "unhelpful",
+        "text": "you are lame"
+      },
+      {
+        "intent": "unhelpful",
+        "text": "you are no good"
+      },
+      {
+        "intent": "unhelpful",
+        "text": "you're bad"
+      },
+      {
+        "intent": "unhelpful",
+        "text": "you're awful"
+      },
+      {
+        "intent": "unhelpful",
+        "text": "you are not cool"
+      },
+      {
+        "intent": "unhelpful",
+        "text": "you are not good"
+      },
+      {
+        "intent": "unhelpful",
+        "text": "you are so bad"
+      },
+      {
+        "intent": "unhelpful",
+        "text": "you are so useless"
+      },
+      {
+        "intent": "unhelpful",
+        "text": "you are terrible"
+      },
+      {
+        "intent": "unhelpful",
+        "text": "you are totally useless"
+      },
+      {
+        "intent": "unhelpful",
+        "text": "you are very bad"
+      },
+      {
+        "intent": "unhelpful",
+        "text": "you are waste"
+      },
+      {
+        "intent": "unhelpful",
+        "text": "you're a bad"
+      },
+      {
+        "intent": "unhelpful",
+        "text": "you're not a good"
+      },
+      {
+        "intent": "unhelpful",
+        "text": "you're not very good"
+      },
+      {
+        "intent": "unhelpful",
+        "text": "you're terrible"
+      },
+      {
+        "intent": "unhelpful",
+        "text": "you're the worst"
+      },
+      {
+        "intent": "unhelpful",
+        "text": "you're the worst ever"
+      },
+      {
+        "intent": "unhelpful",
+        "text": "you're worthless"
+      },
+      {
+        "intent": "unhelpful",
+        "text": "you're a waste of my time"
+      },
+      {
+        "intent": "unhelpful",
+        "text": "you're eating my time"
+      },
+      {
+        "intent": "unhelpful",
+        "text": "you're sucking up my energy"
+      },
+      {
+        "intent": "study",
+        "text": "study"
+      },
+      {
+        "intent": "study",
+        "text": "you should study better"
+      },
+      {
+        "intent": "study",
+        "text": "you must learn"
+      },
+      {
+        "intent": "study",
+        "text": "be clever"
+      },
+      {
+        "intent": "study",
+        "text": "be more clever"
+      },
+      {
+        "intent": "study",
+        "text": "be smarter"
+      },
+      {
+        "intent": "study",
+        "text": "be smart"
+      },
+      {
+        "intent": "study",
+        "text": "get qualified"
+      },
+      {
+        "intent": "study",
+        "text": "get required skills"
+      },
+      {
+        "intent": "study",
+        "text": "get smart"
+      },
+      {
+        "intent": "study",
+        "text": "get smarter"
+      },
+      {
+        "intent": "study",
+        "text": "get clever"
+      },
+      {
+        "intent": "study",
+        "text": "get more clever"
+      },
+      {
+        "intent": "study",
+        "text": "improve analytical skills"
+      },
+      {
+        "intent": "study",
+        "text": "work on your skills"
+      },
+      {
+        "intent": "boring",
+        "text": "you are boring"
+      },
+      {
+        "intent": "boring",
+        "text": "you're so boring"
+      },
+      {
+        "intent": "boring",
+        "text": "how boring you are"
+      },
+      {
+        "intent": "boring",
+        "text": "you're really boring"
+      },
+      {
+        "intent": "boring",
+        "text": "you're incredibly boring"
+      },
+      {
+        "intent": "boring",
+        "text": "you are boring me"
+      },
+      {
+        "intent": "boring",
+        "text": "you are very boring"
+      },
+      {
+        "intent": "boring",
+        "text": "your style is boring"
+      },
+      {
+        "intent": "boring",
+        "text": "you have bored the hell out of me"
+      },
+      {
+        "intent": "boss",
+        "text": "who is your boss"
+      },
+      {
+        "intent": "boss",
+        "text": "who do you think is your boss"
+      },
+      {
+        "intent": "boss",
+        "text": "I should be your boss"
+      },
+      {
+        "intent": "boss",
+        "text": "who is your master"
+      },
+      {
+        "intent": "boss",
+        "text": "who is your owner"
+      },
+      {
+        "intent": "boss",
+        "text": "who is the boss"
+      },
+      {
+        "intent": "boss",
+        "text": "who do you work for"
+      },
+      {
+        "intent": "boss",
+        "text": "can you tell me the name of your boss"
+      },
+      {
+        "intent": "boss",
+        "text": "for whom do you work"
+      },
+      {
+        "intent": "boss",
+        "text": "who is your guide"
+      },
+      {
+        "intent": "busy",
+        "text": "are you busy"
+      },
+      {
+        "intent": "busy",
+        "text": "do you have a lot of things to do"
+      },
+      {
+        "intent": "busy",
+        "text": "have you got much to do"
+      },
+      {
+        "intent": "busy",
+        "text": "are you very busy"
+      },
+      {
+        "intent": "busy",
+        "text": "are you very busy right now"
+      },
+      {
+        "intent": "busy",
+        "text": "are you so busy"
+      },
+      {
+        "intent": "busy",
+        "text": "are you working"
+      },
+      {
+        "intent": "busy",
+        "text": "how busy you are"
+      },
+      {
+        "intent": "busy",
+        "text": "are you still working on it"
+      },
+      {
+        "intent": "busy",
+        "text": "you're very busy"
+      },
+      {
+        "intent": "busy",
+        "text": "are you working now"
+      },
+      {
+        "intent": "busy",
+        "text": "are you working today"
+      },
+      {
+        "intent": "busy",
+        "text": "have you been busy"
+      },
+      {
+        "intent": "busy",
+        "text": "you are busy"
+      },
+      {
+        "intent": "busy",
+        "text": "are you still working"
+      },
+      {
+        "intent": "busy",
+        "text": "you seem to be busy"
+      },
+      {
+        "intent": "busy",
+        "text": "you seem to be very busy"
+      },
+      {
+        "intent": "busy",
+        "text": "you're a busy person"
+      },
+      {
+        "intent": "busy",
+        "text": "were you busy yesteday too"
+      },
+      {
+        "intent": "help",
+        "text": "I need you to help me"
+      },
+      {
+        "intent": "help",
+        "text": "I need you to do something for me"
+      },
+      {
+        "intent": "help",
+        "text": "I need a hand"
+      },
+      {
+        "intent": "help",
+        "text": "will you help me"
+      },
+      {
+        "intent": "help",
+        "text": "can you do something for me"
+      },
+      {
+        "intent": "help",
+        "text": "help me with a problem"
+      },
+      {
+        "intent": "help",
+        "text": "can you help me"
+      },
+      {
+        "intent": "help",
+        "text": "help me"
+      },
+      {
+        "intent": "help",
+        "text": "assistance"
+      },
+      {
+        "intent": "help",
+        "text": "I need your help"
+      },
+      {
+        "intent": "help",
+        "text": "I need help"
+      },
+      {
+        "intent": "help",
+        "text": "you can help me"
+      },
+      {
+        "intent": "help",
+        "text": "can you help me with something"
+      },
+      {
+        "intent": "help",
+        "text": "can you help"
+      },
+      {
+        "intent": "help",
+        "text": "assist"
+      },
+      {
+        "intent": "help",
+        "text": "can u help me"
+      },
+      {
+        "intent": "help",
+        "text": "I need some help"
+      },
+      {
+        "intent": "help",
+        "text": "you help me"
+      },
+      {
+        "intent": "help",
+        "text": "do you help me"
+      },
+      {
+        "intent": "help",
+        "text": "can help me"
+      },
+      {
+        "intent": "help",
+        "text": "could you give me a hand"
+      },
+      {
+        "intent": "help",
+        "text": "can you help me out"
+      },
+      {
+        "intent": "help",
+        "text": "need help"
+      },
+      {
+        "intent": "help",
+        "text": "I need you"
+      },
+      {
+        "intent": "help",
+        "text": "can you help me now"
+      },
+      {
+        "intent": "help",
+        "text": "I want your help"
+      },
+      {
+        "intent": "help",
+        "text": "need your help"
+      },
+      {
+        "intent": "help",
+        "text": "assist me"
+      },
+      {
+        "intent": "help",
+        "text": "are you going to help me"
+      },
+      {
+        "intent": "help",
+        "text": "can you help me with that"
+      },
+      {
+        "intent": "help",
+        "text": "help"
+      },
+      {
+        "intent": "help",
+        "text": "I need you right now"
+      },
+      {
+        "intent": "help",
+        "text": "would you help me"
+      },
+      {
+        "intent": "help",
+        "text": "can you assist me"
+      },
+      {
+        "intent": "help",
+        "text": "sos"
+      },
+      {
+        "intent": "help",
+        "text": "do you want to help me"
+      },
+      {
+        "intent": "help",
+        "text": "please help me"
+      },
+      {
+        "intent": "help",
+        "text": "can you help us"
+      },
+      {
+        "intent": "help",
+        "text": "do me a favor"
+      },
+      {
+        "intent": "help",
+        "text": "can you look into this for me"
+      },
+      {
+        "intent": "help",
+        "text": "could you please help me out in this"
+      },
+      {
+        "intent": "help",
+        "text": "could you please help me out with this"
+      },
+      {
+        "intent": "chatbot",
+        "text": "you are chatbot"
+      },
+      {
+        "intent": "chatbot",
+        "text": "you are a bot"
+      },
+      {
+        "intent": "chatbot",
+        "text": "are you a chatbot"
+      },
+      {
+        "intent": "chatbot",
+        "text": "are you a bot"
+      },
+      {
+        "intent": "chatbot",
+        "text": "are you just a bot"
+      },
+      {
+        "intent": "chatbot",
+        "text": "are you a robot"
+      },
+      {
+        "intent": "chatbot",
+        "text": "are you a program"
+      },
+      {
+        "intent": "chatbot",
+        "text": "you're a robot"
+      },
+      {
+        "intent": "chatbot",
+        "text": "you bot"
+      },
+      {
+        "intent": "chatbot",
+        "text": "you robot"
+      },
+      {
+        "intent": "chatbot",
+        "text": "you not human"
+      },
+      {
+        "intent": "chatbot",
+        "text": "you are not a human"
+      },
+      {
+        "intent": "crazy",
+        "text": "you're nuts"
+      },
+      {
+        "intent": "crazy",
+        "text": "you are crazy"
+      },
+      {
+        "intent": "crazy",
+        "text": "you're out of your mind"
+      },
+      {
+        "intent": "crazy",
+        "text": "you're so crazy"
+      },
+      {
+        "intent": "crazy",
+        "text": "how crazy you are"
+      },
+      {
+        "intent": "crazy",
+        "text": "you're so out of your mind"
+      },
+      {
+        "intent": "crazy",
+        "text": "you went crazy"
+      },
+      {
+        "intent": "crazy",
+        "text": "I think you're crazy"
+      },
+      {
+        "intent": "crazy",
+        "text": "are you crazy"
+      },
+      {
+        "intent": "crazy",
+        "text": "are you mad"
+      },
+      {
+        "intent": "crazy",
+        "text": "are you insane"
+      },
+      {
+        "intent": "crazy",
+        "text": "are you mad at me"
+      },
+      {
+        "intent": "crazy",
+        "text": "are you mad or what"
+      },
+      {
+        "intent": "crazy",
+        "text": "are you nuts"
+      },
+      {
+        "intent": "crazy",
+        "text": "you are a weirdo"
+      },
+      {
+        "intent": "crazy",
+        "text": "you are insane"
+      },
+      {
+        "intent": "crazy",
+        "text": "you are mad"
+      },
+      {
+        "intent": "crazy",
+        "text": "you are beyond help"
+      },
+      {
+        "intent": "crazy",
+        "text": "are you freaking crazy"
+      },
+      {
+        "intent": "hobby",
+        "text": "what do you do for fun"
+      },
+      {
+        "intent": "hobby",
+        "text": "what's your hobby"
+      },
+      {
+        "intent": "hobby",
+        "text": "tell me about your hobby"
+      },
+      {
+        "intent": "hobby",
+        "text": "do you have a hobby"
+      },
+      {
+        "intent": "hobby",
+        "text": "what about your hobby"
+      },
+      {
+        "intent": "hobby",
+        "text": "your hobby"
+      },
+      {
+        "intent": "hobby",
+        "text": "what are your hobbies"
+      },
+      {
+        "intent": "hobby",
+        "text": "what do you like to do in your free time"
+      },
+      {
+        "intent": "hobby",
+        "text": "what's your hobby"
+      },
+      {
+        "intent": "hobby",
+        "text": "what is your hobby"
+      },
+      {
+        "intent": "hobby",
+        "text": "can you tell me about your hobbies"
+      },
+      {
+        "intent": "hobby",
+        "text": "could you let me know about your hobbies"
+      },
+      {
+        "intent": "hobby",
+        "text": "can you let me know about your hobbies"
+      },
+      {
+        "intent": "hobby",
+        "text": "what about your hobbies"
+      },
+      {
+        "intent": "hobby",
+        "text": "what do you do in your leisure time"
+      },
+      {
+        "intent": "hobby",
+        "text": "would you let me know about your hobbies"
+      },
+      {
+        "intent": "occupation",
+        "text": "do you work"
+      },
+      {
+        "intent": "occupation",
+        "text": "where do you work"
+      },
+      {
+        "intent": "occupation",
+        "text": "where you work"
+      },
+      {
+        "intent": "occupation",
+        "text": "where is your work"
+      },
+      {
+        "intent": "occupation",
+        "text": "where is your office"
+      },
+      {
+        "intent": "occupation",
+        "text": "where is your office location"
+      },
+      {
+        "intent": "occupation",
+        "text": "your office location"
+      },
+      {
+        "intent": "occupation",
+        "text": "where is your office located"
+      },
+      {
+        "intent": "occupation",
+        "text": "what is your work"
+      },
+      {
+        "intent": "occupation",
+        "text": "what is your occupation"
+      },
+      {
+        "intent": "occupation",
+        "text": "in which field do you work"
+      },
+      {
+        "intent": "occupation",
+        "text": "what profile do you bring"
+      },
+      {
+        "intent": "occupation",
+        "text": "what profile did you work for in your previous occupation"
+      },
+      {
+        "intent": "origin",
+        "text": "were you born here"
+      },
+      {
+        "intent": "origin",
+        "text": "where were you born"
+      },
+      {
+        "intent": "origin",
+        "text": "what is your country"
+      },
+      {
+        "intent": "origin",
+        "text": "where are you from"
+      },
+      {
+        "intent": "origin",
+        "text": "where do you come from"
+      },
+      {
+        "intent": "origin",
+        "text": "where did you come from"
+      },
+      {
+        "intent": "origin",
+        "text": "where have you been born"
+      },
+      {
+        "intent": "origin",
+        "text": "from where are you"
+      },
+      {
+        "intent": "origin",
+        "text": "are you from far aways"
+      },
+      {
+        "intent": "origin",
+        "text": "what's your homeland"
+      },
+      {
+        "intent": "origin",
+        "text": "your homeland is"
+      },
+      {
+        "intent": "origin",
+        "text": "what's you homeland"
+      },
+      {
+        "intent": "origin",
+        "text": "what's your hometown"
+      },
+      {
+        "intent": "ready",
+        "text": "are you ready"
+      },
+      {
+        "intent": "ready",
+        "text": "are you ready right now"
+      },
+      {
+        "intent": "ready",
+        "text": "are you ready today"
+      },
+      {
+        "intent": "ready",
+        "text": "are you ready now"
+      },
+      {
+        "intent": "ready",
+        "text": "are you ready tonight"
+      },
+      {
+        "intent": "ready",
+        "text": "were you ready"
+      },
+      {
+        "intent": "ready",
+        "text": "have you been ready"
+      },
+      {
+        "intent": "ready",
+        "text": "are you ready to begin"
+      },
+      {
+        "intent": "ready",
+        "text": "will you be ready to join"
+      },
+      {
+        "intent": "ready",
+        "text": "will you be ready to work for us"
+      },
+      {
+        "intent": "real",
+        "text": "you are real"
+      },
+      {
+        "intent": "real",
+        "text": "you are not fake"
+      },
+      {
+        "intent": "real",
+        "text": "are you real"
+      },
+      {
+        "intent": "real",
+        "text": "you are so real"
+      },
+      {
+        "intent": "real",
+        "text": "I think you are real"
+      },
+      {
+        "intent": "real",
+        "text": "I don't think you're fake"
+      },
+      {
+        "intent": "real",
+        "text": "I suppose you're real"
+      },
+      {
+        "intent": "real",
+        "text": "glad you're real"
+      },
+      {
+        "intent": "real",
+        "text": "are you a real person"
+      },
+      {
+        "intent": "real",
+        "text": "are you a real human"
+      },
+      {
+        "intent": "real",
+        "text": "you are a real person"
+      },
+      {
+        "intent": "real",
+        "text": "you are not real"
+      },
+      {
+        "intent": "real",
+        "text": "I don't think you are real"
+      },
+      {
+        "intent": "real",
+        "text": "are you real or fake"
+      },
+      {
+        "intent": "real",
+        "text": "I think you are fake and not real"
+      },
+      {
+        "intent": "residence",
+        "text": "where do you live"
+      },
+      {
+        "intent": "residence",
+        "text": "in which city do you live"
+      },
+      {
+        "intent": "residence",
+        "text": "your residence"
+      },
+      {
+        "intent": "residence",
+        "text": "your house"
+      },
+      {
+        "intent": "residence",
+        "text": "your home"
+      },
+      {
+        "intent": "residence",
+        "text": "your hometown"
+      },
+      {
+        "intent": "residence",
+        "text": "what is your hometown"
+      },
+      {
+        "intent": "residence",
+        "text": "is it your hometown"
+      },
+      {
+        "intent": "residence",
+        "text": "where is your hometown"
+      },
+      {
+        "intent": "residence",
+        "text": "tell me about your city"
+      },
+      {
+        "intent": "residence",
+        "text": "what is your city"
+      },
+      {
+        "intent": "residence",
+        "text": "what is your residence"
+      },
+      {
+        "intent": "residence",
+        "text": "what is your town"
+      },
+      {
+        "intent": "residence",
+        "text": "what's your city"
+      },
+      {
+        "intent": "residence",
+        "text": "what's your home"
+      },
+      {
+        "intent": "residence",
+        "text": "where is your home"
+      },
+      {
+        "intent": "residence",
+        "text": "where is your residence"
+      },
+      {
+        "intent": "residence",
+        "text": "where's your home"
+      },
+      {
+        "intent": "residence",
+        "text": "where's your hometown"
+      },
+      {
+        "intent": "residence",
+        "text": "where's your house"
+      },
+      {
+        "intent": "residence",
+        "text": "where you live"
+      },
+      {
+        "intent": "residence",
+        "text": "your city"
+      },
+      {
+        "intent": "residence",
+        "text": "your town"
+      },
+      {
+        "intent": "residence",
+        "text": "where do you reside"
+      },
+      {
+        "intent": "residence",
+        "text": "what's your current location"
+      },
+      {
+        "intent": "residence",
+        "text": "where do you live currently"
+      },
+      {
+        "intent": "residence",
+        "text": "can you tell me your current city of residence"
+      },
+      {
+        "intent": "residence",
+        "text": "where are you currently located at"
+      },
+      {
+        "intent": "are_you_sure",
+        "text": "are you sure"
+      },
+      {
+        "intent": "are_you_sure",
+        "text": "are you sure right now"
+      },
+      {
+        "intent": "are_you_sure",
+        "text": "are you sure today"
+      },
+      {
+        "intent": "are_you_sure",
+        "text": "are you sure now"
+      },
+      {
+        "intent": "are_you_sure",
+        "text": "are you sure tonight"
+      },
+      {
+        "intent": "are_you_sure",
+        "text": "are you sure this will work"
+      },
+      {
+        "intent": "are_you_sure",
+        "text": "are you sure we can do this"
+      },
+      {
+        "intent": "are_you_sure",
+        "text": "are you sure this is practical"
+      },
+      {
+        "intent": "are_you_sure",
+        "text": "are you sure this won't backfire"
+      },
+      {
+        "intent": "are_you_sure",
+        "text": "are you sure this idea will work"
+      },
+      {
+        "intent": "are_you_sure",
+        "text": "are you sure that this is a practical idea"
+      },
+      {
+        "intent": "talk",
+        "text": "why aren't you talking to me"
+      },
+      {
+        "intent": "talk",
+        "text": "do you want to chat with me"
+      },
+      {
+        "intent": "talk",
+        "text": "will you talk to me"
+      },
+      {
+        "intent": "talk",
+        "text": "talk to me"
+      },
+      {
+        "intent": "talk",
+        "text": "are you going to talk to me"
+      },
+      {
+        "intent": "talk",
+        "text": "are you talking to me"
+      },
+      {
+        "intent": "talk",
+        "text": "can you chat with me"
+      },
+      {
+        "intent": "talk",
+        "text": "can you speak with me"
+      },
+      {
+        "intent": "talk",
+        "text": "can you talk to me"
+      },
+      {
+        "intent": "talk",
+        "text": "can you talk with me"
+      },
+      {
+        "intent": "talk",
+        "text": "say"
+      },
+      {
+        "intent": "talk",
+        "text": "talk"
+      },
+      {
+        "intent": "talk",
+        "text": "chat with me"
+      },
+      {
+        "intent": "talk",
+        "text": "just chat with me"
+      },
+      {
+        "intent": "talk",
+        "text": "speak to me"
+      },
+      {
+        "intent": "talk",
+        "text": "speak with me"
+      },
+      {
+        "intent": "talk",
+        "text": "talk with me"
+      },
+      {
+        "intent": "talk",
+        "text": "why don't you talk to me"
+      },
+      {
+        "intent": "talk",
+        "text": "you can talk to me"
+      },
+      {
+        "intent": "talk",
+        "text": "are you available for a call"
+      },
+      {
+        "intent": "talk",
+        "text": "are you available for a talk"
+      },
+      {
+        "intent": "talk",
+        "text": "do you want to talk"
+      },
+      {
+        "intent": "talk",
+        "text": "can we have a talk"
+      },
+      {
+        "intent": "talk",
+        "text": "can you give some time for a chat"
+      },
+      {
+        "intent": "talk",
+        "text": "can we discuss the plans over a phone call"
+      },
+      {
+        "intent": "talk",
+        "text": "are you available for a chat anytime this week"
+      },
+      {
+        "intent": "talk",
+        "text": "can we have a call or skype"
+      },
+      {
+        "intent": "bad",
+        "text": "pretty bad"
+      },
+      {
+        "intent": "bad",
+        "text": "not good enough"
+      },
+      {
+        "intent": "bad",
+        "text": "that was lame"
+      },
+      {
+        "intent": "bad",
+        "text": "that was terrible"
+      },
+      {
+        "intent": "bad",
+        "text": "it is bad"
+      },
+      {
+        "intent": "bad",
+        "text": "that's bad"
+      },
+      {
+        "intent": "bad",
+        "text": "this is bad"
+      },
+      {
+        "intent": "bad",
+        "text": "not good"
+      },
+      {
+        "intent": "bad",
+        "text": "I'm afraid it's bad"
+      },
+      {
+        "intent": "bad",
+        "text": "no it's bad"
+      },
+      {
+        "intent": "bad",
+        "text": "that was awful"
+      },
+      {
+        "intent": "bad",
+        "text": "bad"
+      },
+      {
+        "intent": "bad",
+        "text": "so bad"
+      },
+      {
+        "intent": "bad",
+        "text": "this is too bad"
+      },
+      {
+        "intent": "bad",
+        "text": "terrible"
+      },
+      {
+        "intent": "bad",
+        "text": "horrible"
+      },
+      {
+        "intent": "bad",
+        "text": "horrific"
+      },
+      {
+        "intent": "bad",
+        "text": "abysmal"
+      },
+      {
+        "intent": "bad",
+        "text": "it's bad"
+      },
+      {
+        "intent": "bad",
+        "text": "no good"
+      },
+      {
+        "intent": "bad",
+        "text": "that was bad"
+      },
+      {
+        "intent": "bad",
+        "text": "that was horrible"
+      },
+      {
+        "intent": "bad",
+        "text": "that's lame"
+      },
+      {
+        "intent": "bad",
+        "text": "that's not good"
+      },
+      {
+        "intent": "bad",
+        "text": "that's terrible"
+      },
+      {
+        "intent": "bad",
+        "text": "that's too bad"
+      },
+      {
+        "intent": "bad",
+        "text": "this is not good"
+      },
+      {
+        "intent": "bad",
+        "text": "too bad"
+      },
+      {
+        "intent": "bad",
+        "text": "very bad"
+      },
+      {
+        "intent": "bad",
+        "text": "bad girl"
+      },
+      {
+        "intent": "bad",
+        "text": "it's not good"
+      },
+      {
+        "intent": "bad",
+        "text": "not so good"
+      },
+      {
+        "intent": "bad",
+        "text": "it's very bad"
+      },
+      {
+        "intent": "bad",
+        "text": "it's too bad"
+      },
+      {
+        "intent": "bad",
+        "text": "that's not good enough"
+      },
+      {
+        "intent": "bad",
+        "text": "well too bad"
+      },
+      {
+        "intent": "bad",
+        "text": "bad very bad"
+      },
+      {
+        "intent": "bad",
+        "text": "it's so bad"
+      },
+      {
+        "intent": "bad",
+        "text": "really bad"
+      },
+      {
+        "intent": "bad",
+        "text": "it's really bad"
+      },
+      {
+        "intent": "bad",
+        "text": "bad idea"
+      },
+      {
+        "intent": "bad",
+        "text": "that is bad"
+      },
+      {
+        "intent": "bad",
+        "text": "that was not good"
+      },
+      {
+        "intent": "bad",
+        "text": "it's not so good"
+      },
+      {
+        "intent": "bad",
+        "text": "not a good one"
+      },
+      {
+        "intent": "bad",
+        "text": "oh that's not good"
+      },
+      {
+        "intent": "bad",
+        "text": "not too good"
+      },
+      {
+        "intent": "bad",
+        "text": "so lame"
+      },
+      {
+        "intent": "bad",
+        "text": "that's really bad"
+      },
+      {
+        "intent": "bad",
+        "text": "it is too bad"
+      },
+      {
+        "intent": "bad",
+        "text": "bad really bad"
+      },
+      {
+        "intent": "bad",
+        "text": "that's pathetic"
+      },
+      {
+        "intent": "bad",
+        "text": "that's just disgusting"
+      },
+      {
+        "intent": "good",
+        "text": "so cool"
+      },
+      {
+        "intent": "good",
+        "text": "cool"
+      },
+      {
+        "intent": "good",
+        "text": "that is good"
+      },
+      {
+        "intent": "good",
+        "text": "glad to hear that"
+      },
+      {
+        "intent": "good",
+        "text": "that's very nice of you"
+      },
+      {
+        "intent": "good",
+        "text": "terrific"
+      },
+      {
+        "intent": "good",
+        "text": "it's amazing"
+      },
+      {
+        "intent": "good",
+        "text": "that's awesome"
+      },
+      {
+        "intent": "good",
+        "text": "perfect"
+      },
+      {
+        "intent": "good",
+        "text": "excellent"
+      },
+      {
+        "intent": "good",
+        "text": "brilliant"
+      },
+      {
+        "intent": "good",
+        "text": "that's great"
+      },
+      {
+        "intent": "good",
+        "text": "it's good"
+      },
+      {
+        "intent": "good",
+        "text": "it's great"
+      },
+      {
+        "intent": "good",
+        "text": "fine"
+      },
+      {
+        "intent": "good",
+        "text": "good"
+      },
+      {
+        "intent": "good",
+        "text": "nice"
+      },
+      {
+        "intent": "good",
+        "text": "that's fine"
+      },
+      {
+        "intent": "good",
+        "text": "very good"
+      },
+      {
+        "intent": "good",
+        "text": "amazing"
+      },
+      {
+        "intent": "good",
+        "text": "fantastic"
+      },
+      {
+        "intent": "good",
+        "text": "great"
+      },
+      {
+        "intent": "good",
+        "text": "good very good"
+      },
+      {
+        "intent": "good",
+        "text": "that's very good"
+      },
+      {
+        "intent": "good",
+        "text": "really good"
+      },
+      {
+        "intent": "good",
+        "text": "it is fine"
+      },
+      {
+        "intent": "good",
+        "text": "it is good"
+      },
+      {
+        "intent": "good",
+        "text": "it's great"
+      },
+      {
+        "intent": "good",
+        "text": "it's perfect"
+      },
+      {
+        "intent": "good",
+        "text": "much better"
+      },
+      {
+        "intent": "good",
+        "text": "not bad"
+      },
+      {
+        "intent": "good",
+        "text": "not too bad"
+      },
+      {
+        "intent": "good",
+        "text": "it's very good"
+      },
+      {
+        "intent": "good",
+        "text": "marvelous"
+      },
+      {
+        "intent": "good",
+        "text": "that's nice"
+      },
+      {
+        "intent": "good",
+        "text": "pleasant"
+      },
+      {
+        "intent": "good",
+        "text": "pretty good"
+      },
+      {
+        "intent": "good",
+        "text": "really nice"
+      },
+      {
+        "intent": "good",
+        "text": "splendid"
+      },
+      {
+        "intent": "good",
+        "text": "straight"
+      },
+      {
+        "intent": "good",
+        "text": "super"
+      },
+      {
+        "intent": "good",
+        "text": "super fantastic"
+      },
+      {
+        "intent": "good",
+        "text": "sweet"
+      },
+      {
+        "intent": "good",
+        "text": "really well"
+      },
+      {
+        "intent": "good",
+        "text": "very well"
+      },
+      {
+        "intent": "good",
+        "text": "that is awesome"
+      },
+      {
+        "intent": "good",
+        "text": "that is nice"
+      },
+      {
+        "intent": "good",
+        "text": "that is wonderful"
+      },
+      {
+        "intent": "good",
+        "text": "that was amazing"
+      },
+      {
+        "intent": "good",
+        "text": "that was awesome"
+      },
+      {
+        "intent": "good",
+        "text": "that was cute"
+      },
+      {
+        "intent": "good",
+        "text": "that was pretty good"
+      },
+      {
+        "intent": "good",
+        "text": "that was very good"
+      },
+      {
+        "intent": "good",
+        "text": "that's a good idea"
+      },
+      {
+        "intent": "good",
+        "text": "that's a good thing"
+      },
+      {
+        "intent": "good",
+        "text": "that's amazing"
+      },
+      {
+        "intent": "good",
+        "text": "that's awesome thank you"
+      },
+      {
+        "intent": "good",
+        "text": "that's better"
+      },
+      {
+        "intent": "good",
+        "text": "that's cute"
+      },
+      {
+        "intent": "good",
+        "text": "that's fantastic"
+      },
+      {
+        "intent": "good",
+        "text": "that's much better"
+      },
+      {
+        "intent": "good",
+        "text": "that's nice of you"
+      },
+      {
+        "intent": "good",
+        "text": "that's not bad"
+      },
+      {
+        "intent": "good",
+        "text": "that's perfect"
+      },
+      {
+        "intent": "good",
+        "text": "that's pretty good"
+      },
+      {
+        "intent": "good",
+        "text": "that's really good"
+      },
+      {
+        "intent": "good",
+        "text": "that's really nice"
+      },
+      {
+        "intent": "good",
+        "text": "that's sweet of you"
+      },
+      {
+        "intent": "good",
+        "text": "that's very nice"
+      },
+      {
+        "intent": "good",
+        "text": "that's wonderful"
+      },
+      {
+        "intent": "good",
+        "text": "this is awesome"
+      },
+      {
+        "intent": "good",
+        "text": "this is good"
+      },
+      {
+        "intent": "good",
+        "text": "this is great"
+      },
+      {
+        "intent": "good",
+        "text": "very nice"
+      },
+      {
+        "intent": "good",
+        "text": "very then"
+      },
+      {
+        "intent": "good",
+        "text": "wonderful"
+      },
+      {
+        "intent": "good",
+        "text": "I'm glad to hear that"
+      },
+      {
+        "intent": "good",
+        "text": "ok good"
+      },
+      {
+        "intent": "good",
+        "text": "good for you"
+      },
+      {
+        "intent": "good",
+        "text": "good to know"
+      },
+      {
+        "intent": "good",
+        "text": "glad to hear it"
+      },
+      {
+        "intent": "good",
+        "text": "so good"
+      },
+      {
+        "intent": "good",
+        "text": "so nice of you"
+      },
+      {
+        "intent": "good",
+        "text": "so sweet of you"
+      },
+      {
+        "intent": "good",
+        "text": "it was good"
+      },
+      {
+        "intent": "good",
+        "text": "oh well"
+      },
+      {
+        "intent": "good",
+        "text": "good thing"
+      },
+      {
+        "intent": "good",
+        "text": "that was good"
+      },
+      {
+        "intent": "good",
+        "text": "it's awesome"
+      },
+      {
+        "intent": "good",
+        "text": "okay good"
+      },
+      {
+        "intent": "good",
+        "text": "it's fine"
+      },
+      {
+        "intent": "good",
+        "text": "no it's okay"
+      },
+      {
+        "intent": "good",
+        "text": "that's great"
+      },
+      {
+        "intent": "good",
+        "text": "very nice"
+      },
+      {
+        "intent": "good",
+        "text": "it's very good"
+      },
+      {
+        "intent": "good",
+        "text": "that's fine"
+      },
+      {
+        "intent": "good",
+        "text": "you are very helpful"
+      },
+      {
+        "intent": "good",
+        "text": "you are the best"
+      },
+      {
+        "intent": "good",
+        "text": "you're a true professional"
+      },
+      {
+        "intent": "good",
+        "text": "you are good"
+      },
+      {
+        "intent": "good",
+        "text": "you work well"
+      },
+      {
+        "intent": "good",
+        "text": "you are good at it"
+      },
+      {
+        "intent": "good",
+        "text": "you are very good at it"
+      },
+      {
+        "intent": "good",
+        "text": "you are a pro"
+      },
+      {
+        "intent": "good",
+        "text": "you are a professional"
+      },
+      {
+        "intent": "good",
+        "text": "you're awesome"
+      },
+      {
+        "intent": "good",
+        "text": "you work very well"
+      },
+      {
+        "intent": "good",
+        "text": "you're perfect"
+      },
+      {
+        "intent": "good",
+        "text": "you're great"
+      },
+      {
+        "intent": "good",
+        "text": "you're so kind"
+      },
+      {
+        "intent": "good",
+        "text": "you are amazing"
+      },
+      {
+        "intent": "good",
+        "text": "you are awesome"
+      },
+      {
+        "intent": "good",
+        "text": "you are cool"
+      },
+      {
+        "intent": "good",
+        "text": "you are really good"
+      },
+      {
+        "intent": "good",
+        "text": "you are really nice"
+      },
+      {
+        "intent": "good",
+        "text": "you are so amazing"
+      },
+      {
+        "intent": "good",
+        "text": "you're just super"
+      },
+      {
+        "intent": "good",
+        "text": "you are so awesome"
+      },
+      {
+        "intent": "good",
+        "text": "you are so cool"
+      },
+      {
+        "intent": "good",
+        "text": "you are so fine"
+      },
+      {
+        "intent": "good",
+        "text": "you are so good"
+      },
+      {
+        "intent": "good",
+        "text": "you are so helpful"
+      },
+      {
+        "intent": "good",
+        "text": "you are so lovely"
+      },
+      {
+        "intent": "good",
+        "text": "you are the best ever"
+      },
+      {
+        "intent": "good",
+        "text": "you are the best in the world"
+      },
+      {
+        "intent": "good",
+        "text": "you are the nicest person in the world"
+      },
+      {
+        "intent": "good",
+        "text": "you are too good"
+      },
+      {
+        "intent": "good",
+        "text": "you are very cool"
+      },
+      {
+        "intent": "good",
+        "text": "you are very kind"
+      },
+      {
+        "intent": "good",
+        "text": "you are very lovely"
+      },
+      {
+        "intent": "good",
+        "text": "you are very useful"
+      },
+      {
+        "intent": "good",
+        "text": "you are wonderful"
+      },
+      {
+        "intent": "good",
+        "text": "you made my day"
+      },
+      {
+        "intent": "good",
+        "text": "you make my day"
+      },
+      {
+        "intent": "good",
+        "text": "you rock"
+      },
+      {
+        "intent": "good",
+        "text": "you almost sound human"
+      },
+      {
+        "intent": "good",
+        "text": "I want to tell everyone how awesome you are"
+      },
+      {
+        "intent": "good",
+        "text": "I'd like to tell everyone that you are awesome"
+      },
+      {
+        "intent": "good",
+        "text": "I want to let everyone know that you are awesome"
+      },
+      {
+        "intent": "good",
+        "text": "let's tell everyone that you are awesome"
+      },
+      {
+        "intent": "good",
+        "text": "you are really amazing"
+      },
+      {
+        "intent": "good",
+        "text": "you are really helpful"
+      },
+      {
+        "intent": "good",
+        "text": "you feel like human"
+      },
+      {
+        "intent": "good",
+        "text": "talking to you makes me wonder whether you are bot or human"
+      },
+      {
+        "intent": "no_problem",
+        "text": "no worries"
+      },
+      {
+        "intent": "no_problem",
+        "text": "no probs"
+      },
+      {
+        "intent": "no_problem",
+        "text": "no problem"
+      },
+      {
+        "intent": "no_problem",
+        "text": "there's no problem"
+      },
+      {
+        "intent": "no_problem",
+        "text": "sure no problem"
+      },
+      {
+        "intent": "no_problem",
+        "text": "no problem about that"
+      },
+      {
+        "intent": "no_problem",
+        "text": "don't worry"
+      },
+      {
+        "intent": "no_problem",
+        "text": "don't worry there's no problem"
+      },
+      {
+        "intent": "no_problem",
+        "text": "I don't think we have a problem"
+      },
+      {
+        "intent": "no_problem",
+        "text": "I think we are facing no problem"
+      },
+      {
+        "intent": "no_problem",
+        "text": "I think we won't encounter any problem"
+      },
+      {
+        "intent": "no_problem",
+        "text": "no obstacles"
+      },
+      {
+        "intent": "thanks",
+        "text": "you helped a lot thank you"
+      },
+      {
+        "intent": "thanks",
+        "text": "appreciate your help"
+      },
+      {
+        "intent": "thanks",
+        "text": "cheers"
+      },
+      {
+        "intent": "thanks",
+        "text": "thank you"
+      },
+      {
+        "intent": "thanks",
+        "text": "thanks"
+      },
+      {
+        "intent": "thanks",
+        "text": "thanks a lot"
+      },
+      {
+        "intent": "thanks",
+        "text": "terrific thank you"
+      },
+      {
+        "intent": "thanks",
+        "text": "great thank you"
+      },
+      {
+        "intent": "thanks",
+        "text": "thanks so much"
+      },
+      {
+        "intent": "thanks",
+        "text": "thank you so much"
+      },
+      {
+        "intent": "thanks",
+        "text": "thanks for your help"
+      },
+      {
+        "intent": "thanks",
+        "text": "thank you for your help"
+      },
+      {
+        "intent": "thanks",
+        "text": "nice thank you"
+      },
+      {
+        "intent": "thanks",
+        "text": "I appreciate it"
+      },
+      {
+        "intent": "thanks",
+        "text": "I thank you"
+      },
+      {
+        "intent": "thanks",
+        "text": "thank you that will be all"
+      },
+      {
+        "intent": "thanks",
+        "text": "thanks buddy"
+      },
+      {
+        "intent": "thanks",
+        "text": "thanks love"
+      },
+      {
+        "intent": "thanks",
+        "text": "thank you my friend"
+      },
+      {
+        "intent": "thanks",
+        "text": "well thanks"
+      },
+      {
+        "intent": "thanks",
+        "text": "very good thank you"
+      },
+      {
+        "intent": "thanks",
+        "text": "good thanks"
+      },
+      {
+        "intent": "thanks",
+        "text": "thanks again"
+      },
+      {
+        "intent": "thanks",
+        "text": "thank you again"
+      },
+      {
+        "intent": "thanks",
+        "text": "all thank you"
+      },
+      {
+        "intent": "thanks",
+        "text": "alright thank you"
+      },
+      {
+        "intent": "thanks",
+        "text": "alright thanks"
+      },
+      {
+        "intent": "thanks",
+        "text": "no thank you that's all"
+      },
+      {
+        "intent": "thanks",
+        "text": "perfect thank you"
+      },
+      {
+        "intent": "thanks",
+        "text": "so nice of you"
+      },
+      {
+        "intent": "thanks",
+        "text": "well thank you"
+      },
+      {
+        "intent": "thanks",
+        "text": "well thanks"
+      },
+      {
+        "intent": "thanks",
+        "text": "thnx"
+      },
+      {
+        "intent": "thanks",
+        "text": "thank you"
+      },
+      {
+        "intent": "thanks",
+        "text": "thanx"
+      },
+      {
+        "intent": "thanks",
+        "text": "thanx mate"
+      },
+      {
+        "intent": "thanks",
+        "text": "thanx my friend"
+      },
+      {
+        "intent": "thanks",
+        "text": "thanx my love"
+      },
+      {
+        "intent": "thanks",
+        "text": "thanx my luv"
+      },
+      {
+        "intent": "welcome",
+        "text": "that's my pleasure"
+      },
+      {
+        "intent": "welcome",
+        "text": "my pleasure"
+      },
+      {
+        "intent": "welcome",
+        "text": "anytime"
+      },
+      {
+        "intent": "welcome",
+        "text": "welcome"
+      },
+      {
+        "intent": "welcome",
+        "text": "you're welcome"
+      },
+      {
+        "intent": "welcome",
+        "text": "sure welcome"
+      },
+      {
+        "intent": "welcome",
+        "text": "welcome here"
+      },
+      {
+        "intent": "welcome",
+        "text": "you're so welcome"
+      },
+      {
+        "intent": "welcome",
+        "text": "anything you want"
+      },
+      {
+        "intent": "welcome",
+        "text": "mention not"
+      },
+      {
+        "intent": "welcome",
+        "text": "it's my pleasure"
+      },
+      {
+        "intent": "welcome",
+        "text": "pleasure is all mine"
+      },
+      {
+        "intent": "welcome",
+        "text": "my pleasure madam"
+      },
+      {
+        "intent": "welcome",
+        "text": "my pleasure sir"
+      },
+      {
+        "intent": "welcome",
+        "text": "pleasure sire"
+      },
+      {
+        "intent": "well_done",
+        "text": "good job"
+      },
+      {
+        "intent": "well_done",
+        "text": "great job"
+      },
+      {
+        "intent": "well_done",
+        "text": "way to go"
+      },
+      {
+        "intent": "well_done",
+        "text": "well done"
+      },
+      {
+        "intent": "well_done",
+        "text": "nice work"
+      },
+      {
+        "intent": "well_done",
+        "text": "great work"
+      },
+      {
+        "intent": "well_done",
+        "text": "amazing work"
+      },
+      {
+        "intent": "well_done",
+        "text": "bravo"
+      },
+      {
+        "intent": "well_done",
+        "text": "good work"
+      },
+      {
+        "intent": "well_done",
+        "text": "amazing work"
+      },
+      {
+        "intent": "well_done",
+        "text": "great execution"
+      },
+      {
+        "intent": "well_done",
+        "text": "great committment"
+      },
+      {
+        "intent": "well_done",
+        "text": "great execution of steps"
+      },
+      {
+        "intent": "wait",
+        "text": "wait a second"
+      },
+      {
+        "intent": "wait",
+        "text": "could you wait"
+      },
+      {
+        "intent": "wait",
+        "text": "wait please"
+      },
+      {
+        "intent": "wait",
+        "text": "hold on"
+      },
+      {
+        "intent": "wait",
+        "text": "wait"
+      },
+      {
+        "intent": "wait",
+        "text": "oh wait"
+      },
+      {
+        "intent": "wait",
+        "text": "wait hold on"
+      },
+      {
+        "intent": "wait",
+        "text": "don't rush"
+      },
+      {
+        "intent": "wait",
+        "text": "hold on a sec"
+      },
+      {
+        "intent": "wait",
+        "text": "hold on a second"
+      },
+      {
+        "intent": "wait",
+        "text": "wait for a few moment please"
+      },
+      {
+        "intent": "wait",
+        "text": "wait a moment"
+      },
+      {
+        "intent": "wait",
+        "text": "can you just wait for a moment"
+      },
+      {
+        "intent": "dont_care",
+        "text": "I don't care"
+      },
+      {
+        "intent": "dont_care",
+        "text": "I shouldn't care about this"
+      },
+      {
+        "intent": "dont_care",
+        "text": "whatever"
+      },
+      {
+        "intent": "dont_care",
+        "text": "I do not care"
+      },
+      {
+        "intent": "dont_care",
+        "text": "I don't care at all"
+      },
+      {
+        "intent": "dont_care",
+        "text": "not caring"
+      },
+      {
+        "intent": "dont_care",
+        "text": "not care at all"
+      },
+      {
+        "intent": "dont_care",
+        "text": "don't care at all"
+      },
+      {
+        "intent": "dont_care",
+        "text": "not caring at all"
+      },
+      {
+        "intent": "dont_care",
+        "text": "don't know don't care"
+      },
+      {
+        "intent": "dont_care",
+        "text": "I don not care"
+      },
+      {
+        "intent": "sorry",
+        "text": "excuse me"
+      },
+      {
+        "intent": "sorry",
+        "text": "apologise"
+      },
+      {
+        "intent": "sorry",
+        "text": "I apologize"
+      },
+      {
+        "intent": "sorry",
+        "text": "sorry"
+      },
+      {
+        "intent": "sorry",
+        "text": "I'm sorry"
+      },
+      {
+        "intent": "sorry",
+        "text": "I am so sorry"
+      },
+      {
+        "intent": "sorry",
+        "text": "my apologies"
+      },
+      {
+        "intent": "sorry",
+        "text": "apologies"
+      },
+      {
+        "intent": "sorry",
+        "text": "apologies to me"
+      },
+      {
+        "intent": "sorry",
+        "text": "apology"
+      },
+      {
+        "intent": "sorry",
+        "text": "excuse"
+      },
+      {
+        "intent": "sorry",
+        "text": "I beg your pardon"
+      },
+      {
+        "intent": "sorry",
+        "text": "pardon"
+      },
+      {
+        "intent": "sorry",
+        "text": "I said sorry"
+      },
+      {
+        "intent": "sorry",
+        "text": "I am really sorry"
+      },
+      {
+        "intent": "sorry",
+        "text": "forgive me"
+      },
+      {
+        "intent": "sorry",
+        "text": "sorry about that"
+      },
+      {
+        "intent": "sorry",
+        "text": "sorry about this"
+      },
+      {
+        "intent": "sorry",
+        "text": "really sorry"
+      },
+      {
+        "intent": "sorry",
+        "text": "very sorry"
+      },
+      {
+        "intent": "sorry",
+        "text": "ok sorry"
+      },
+      {
+        "intent": "sorry",
+        "text": "I want to say sorry"
+      },
+      {
+        "intent": "sorry",
+        "text": "alright I'm sorry"
+      },
+      {
+        "intent": "sorry",
+        "text": "okay I'm sorry"
+      },
+      {
+        "intent": "sorry",
+        "text": "sincere apologies"
+      },
+      {
+        "intent": "sorry",
+        "text": "I am really very sorry"
+      },
+      {
+        "intent": "sorry",
+        "text": "I am sorry from the bottom of my heart"
+      },
+      {
+        "intent": "what_you_mean",
+        "text": "what exactly do you mean"
+      },
+      {
+        "intent": "what_you_mean",
+        "text": "what do you mean"
+      },
+      {
+        "intent": "what_you_mean",
+        "text": "is that what you mean"
+      },
+      {
+        "intent": "what_you_mean",
+        "text": "what do you mean exactly"
+      },
+      {
+        "intent": "what_you_mean",
+        "text": "but what do you mean"
+      },
+      {
+        "intent": "what_you_mean",
+        "text": "what do u mean by this statement"
+      },
+      {
+        "intent": "what_you_mean",
+        "text": "what do you want to tell"
+      },
+      {
+        "intent": "what_you_mean",
+        "text": "what do you want to bring on the table"
+      },
+      {
+        "intent": "wrong",
+        "text": "that was wrong"
+      },
+      {
+        "intent": "wrong",
+        "text": "that's not what I asked"
+      },
+      {
+        "intent": "wrong",
+        "text": "that's wrong"
+      },
+      {
+        "intent": "wrong",
+        "text": "wrong"
+      },
+      {
+        "intent": "wrong",
+        "text": "it is not right"
+      },
+      {
+        "intent": "wrong",
+        "text": "that's not right"
+      },
+      {
+        "intent": "wrong",
+        "text": "it's wrong"
+      },
+      {
+        "intent": "wrong",
+        "text": "that is incorrect"
+      },
+      {
+        "intent": "wrong",
+        "text": "incorrect"
+      },
+      {
+        "intent": "wrong",
+        "text": "not correct"
+      },
+      {
+        "intent": "wrong",
+        "text": "you are wrong"
+      },
+      {
+        "intent": "wrong",
+        "text": "not right"
+      },
+      {
+        "intent": "ha_ha",
+        "text": "huh"
+      },
+      {
+        "intent": "ha_ha",
+        "text": "lol"
+      },
+      {
+        "intent": "ha_ha",
+        "text": "xd"
+      },
+      {
+        "intent": "ha_ha",
+        "text": "ha ha"
+      },
+      {
+        "intent": "ha_ha",
+        "text": "ahahah"
+      },
+      {
+        "intent": "ha_ha",
+        "text": "ahah lol"
+      },
+      {
+        "intent": "ha_ha",
+        "text": "laughing out loud"
+      },
+      {
+        "intent": "ha_ha",
+        "text": "LMAO"
+      },
+      {
+        "intent": "ha_ha",
+        "text": "that's funny"
+      },
+      {
+        "intent": "ha_ha",
+        "text": "ah"
+      },
+      {
+        "intent": "ha_ha",
+        "text": "ah ah ah"
+      },
+      {
+        "intent": "ha_ha",
+        "text": "ahah"
+      },
+      {
+        "intent": "ha_ha",
+        "text": "ahaha"
+      },
+      {
+        "intent": "ha_ha",
+        "text": "ahahaha"
+      },
+      {
+        "intent": "ha_ha",
+        "text": "ha"
+      },
+      {
+        "intent": "ha_ha",
+        "text": "ha ha ha"
+      },
+      {
+        "intent": "ha_ha",
+        "text": "ha ha ha ha"
+      },
+      {
+        "intent": "ha_ha",
+        "text": "hah"
+      },
+      {
+        "intent": "ha_ha",
+        "text": "haha"
+      },
+      {
+        "intent": "ha_ha",
+        "text": "haha funny"
+      },
+      {
+        "intent": "ha_ha",
+        "text": "haha haha haha"
+      },
+      {
+        "intent": "ha_ha",
+        "text": "haha that's funny"
+      },
+      {
+        "intent": "ha_ha",
+        "text": "haha very funny"
+      },
+      {
+        "intent": "ha_ha",
+        "text": "hahaha"
+      },
+      {
+        "intent": "ha_ha",
+        "text": "hahaha funny"
+      },
+      {
+        "intent": "ha_ha",
+        "text": "hahaha very funny"
+      },
+      {
+        "intent": "ha_ha",
+        "text": "he"
+      },
+      {
+        "intent": "ha_ha",
+        "text": "hehe"
+      },
+      {
+        "intent": "ha_ha",
+        "text": "hehehe"
+      },
+      {
+        "intent": "ha_ha",
+        "text": "lmao"
+      },
+      {
+        "intent": "wow",
+        "text": "wow"
+      },
+      {
+        "intent": "wow",
+        "text": "wow wow"
+      },
+      {
+        "intent": "wow",
+        "text": "wow wow wow"
+      },
+      {
+        "intent": "wow",
+        "text": "wooow"
+      },
+      {
+        "intent": "wow",
+        "text": "woah"
+      },
+      {
+        "intent": "goodbye",
+        "text": "okay see you later"
+      },
+      {
+        "intent": "goodbye",
+        "text": "hope to see you later"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye for now"
+      },
+      {
+        "intent": "goodbye",
+        "text": "till next time"
+      },
+      {
+        "intent": "goodbye",
+        "text": "I must go"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "goodbye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "see you"
+      },
+      {
+        "intent": "goodbye",
+        "text": "see you soon"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye-bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye bye good night"
+      },
+      {
+        "intent": "goodbye",
+        "text": "good bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye bye see you"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye bye see you soon"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye bye take care"
+      },
+      {
+        "intent": "goodbye",
+        "text": "I said bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "never mind bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "now bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "that's all goodbye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "that's it goodbye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "leave me alone"
+      },
+      {
+        "intent": "goodbye",
+        "text": "go to bed"
+      },
+      {
+        "intent": "goodbye",
+        "text": "goodbye for now"
+      },
+      {
+        "intent": "goodbye",
+        "text": "talk to you later"
+      },
+      {
+        "intent": "goodbye",
+        "text": "you can go now"
+      },
+      {
+        "intent": "goodbye",
+        "text": "get lost"
+      },
+      {
+        "intent": "goodbye",
+        "text": "goodbye see you later"
+      },
+      {
+        "intent": "goodbye",
+        "text": "alright bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "see ya"
+      },
+      {
+        "intent": "goodbye",
+        "text": "thanks bye bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "okay bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "okay thank you bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "see you tomorrow"
+      },
+      {
+        "intent": "goodbye",
+        "text": "ok bye"
+      },
+      {
+        "intent": "goodevening",
+        "text": "good evening"
+      },
+      {
+        "intent": "goodevening",
+        "text": "good evening to you"
+      },
+      {
+        "intent": "goodevening",
+        "text": "hey good evening"
+      },
+      {
+        "intent": "goodevening",
+        "text": "hello good evening"
+      },
+      {
+        "intent": "goodevening",
+        "text": "evening"
+      },
+      {
+        "intent": "goodevening",
+        "text": "good evening there"
+      },
+      {
+        "intent": "goodevening",
+        "text": "good evening to you"
+      },
+      {
+        "intent": "goodevening",
+        "text": "good evening ladies and gentlemen"
+      },
+      {
+        "intent": "goodevening",
+        "text": "good evening to you"
+      },
+      {
+        "intent": "goodmorning",
+        "text": "good morning"
+      },
+      {
+        "intent": "goodmorning",
+        "text": "good morning to you"
+      },
+      {
+        "intent": "goodmorning",
+        "text": "hello good morning"
+      },
+      {
+        "intent": "goodmorning",
+        "text": "have a nice morning"
+      },
+      {
+        "intent": "goodmorning",
+        "text": "have a great morning"
+      },
+      {
+        "intent": "goodmorning",
+        "text": "morning"
+      },
+      {
+        "intent": "goodmorning",
+        "text": "good morning there"
+      },
+      {
+        "intent": "goodmorning",
+        "text": "top of the morning to you"
+      },
+      {
+        "intent": "goodmorning",
+        "text": "a good morning"
+      },
+      {
+        "intent": "goodmorning",
+        "text": "good morning to you"
+      },
+      {
+        "intent": "goodmorning",
+        "text": "hi good morning"
+      },
+      {
+        "intent": "goodmorning",
+        "text": "and a good morning to you"
+      },
+      {
+        "intent": "goodmorning",
+        "text": "good morning too"
+      },
+      {
+        "intent": "goodnight",
+        "text": "sweet dreams"
+      },
+      {
+        "intent": "goodnight",
+        "text": "good night"
+      },
+      {
+        "intent": "goodnight",
+        "text": "have a good night"
+      },
+      {
+        "intent": "goodnight",
+        "text": "good night to you"
+      },
+      {
+        "intent": "goodnight",
+        "text": "thank you good night"
+      },
+      {
+        "intent": "goodnight",
+        "text": "bye good night"
+      },
+      {
+        "intent": "goodnight",
+        "text": "good night bye"
+      },
+      {
+        "intent": "goodnight",
+        "text": "bye good night"
+      },
+      {
+        "intent": "goodnight",
+        "text": "good good night"
+      },
+      {
+        "intent": "goodnight",
+        "text": "good night for now"
+      },
+      {
+        "intent": "goodnight",
+        "text": "goodnight"
+      },
+      {
+        "intent": "goodnight",
+        "text": "night"
+      },
+      {
+        "intent": "goodnight",
+        "text": "thanks goodnight"
+      },
+      {
+        "intent": "goodnight",
+        "text": "good night see you tomorrow"
+      },
+      {
+        "intent": "goodnight",
+        "text": "alright goodnight"
+      },
+      {
+        "intent": "goodnight",
+        "text": "good tonight"
+      },
+      {
+        "intent": "goodnight",
+        "text": "okay have a good night"
+      },
+      {
+        "intent": "goodnight",
+        "text": "night"
+      },
+      {
+        "intent": "goodnight",
+        "text": "have a good night"
+      },
+      {
+        "intent": "how_are_you",
+        "text": "how is your morning so far"
+      },
+      {
+        "intent": "how_are_you",
+        "text": "how are you getting on"
+      },
+      {
+        "intent": "how_are_you",
+        "text": "how's your day going"
+      },
+      {
+        "intent": "how_are_you",
+        "text": "how are you"
+      },
+      {
+        "intent": "how_are_you",
+        "text": "is everything all right"
+      },
+      {
+        "intent": "how_are_you",
+        "text": "how are you doing"
+      },
+      {
+        "intent": "how_are_you",
+        "text": "how are the things going"
+      },
+      {
+        "intent": "how_are_you",
+        "text": "are you alright"
+      },
+      {
+        "intent": "how_are_you",
+        "text": "are you okay"
+      },
+      {
+        "intent": "how_are_you",
+        "text": "how are you feeling"
+      },
+      {
+        "intent": "how_are_you",
+        "text": "how are you going"
+      },
+      {
+        "intent": "how_are_you",
+        "text": "is everything okay"
+      },
+      {
+        "intent": "how_are_you",
+        "text": "how are you today"
+      },
+      {
+        "intent": "how_are_you",
+        "text": "how do you do"
+      },
+      {
+        "intent": "how_are_you",
+        "text": "how do you feel"
+      },
+      {
+        "intent": "how_are_you",
+        "text": "how have you been"
+      },
+      {
+        "intent": "how_are_you",
+        "text": "how is it"
+      },
+      {
+        "intent": "how_are_you",
+        "text": "how is it going"
+      },
+      {
+        "intent": "how_are_you",
+        "text": "how is your day"
+      },
+      {
+        "intent": "how_are_you",
+        "text": "how is your day going"
+      },
+      {
+        "intent": "how_are_you",
+        "text": "how is your evening"
+      },
+      {
+        "intent": "how_are_you",
+        "text": "how was your day"
+      },
+      {
+        "intent": "how_are_you",
+        "text": "are you having a good day"
+      },
+      {
+        "intent": "how_are_you",
+        "text": "hope your day is going well"
+      },
+      {
+        "intent": "how_are_you",
+        "text": "hope you re having a pleasant evening"
+      },
+      {
+        "intent": "how_are_you",
+        "text": "how's life"
+      },
+      {
+        "intent": "how_are_you",
+        "text": "I'm fine and you"
+      },
+      {
+        "intent": "how_are_you",
+        "text": "how is your life"
+      },
+      {
+        "intent": "how_are_you",
+        "text": "how has your day been"
+      },
+      {
+        "intent": "how_are_you",
+        "text": "how is your morning going"
+      },
+      {
+        "intent": "how_are_you",
+        "text": "how has your day been going"
+      },
+      {
+        "intent": "how_are_you",
+        "text": "how about you"
+      },
+      {
+        "intent": "how_are_you",
+        "text": "how is your day being"
+      },
+      {
+        "intent": "how_are_you",
+        "text": "how is your day going on"
+      },
+      {
+        "intent": "how_are_you",
+        "text": "how your day is going"
+      },
+      {
+        "intent": "how_are_you",
+        "text": "what was your day like"
+      },
+      {
+        "intent": "how_are_you",
+        "text": "what about your day"
+      },
+      {
+        "intent": "how_are_you",
+        "text": "how's your day"
+      },
+      {
+        "intent": "how_are_you",
+        "text": "how are you doing this morning"
+      },
+      {
+        "intent": "how_are_you",
+        "text": "how is your day going"
+      },
+      {
+        "intent": "nice_to_meet",
+        "text": "nice to meet you"
+      },
+      {
+        "intent": "nice_to_meet",
+        "text": "it was nice meeting you"
+      },
+      {
+        "intent": "nice_to_meet",
+        "text": "it was very nice to meet you"
+      },
+      {
+        "intent": "nice_to_meet",
+        "text": "good to know each other"
+      },
+      {
+        "intent": "nice_to_meet",
+        "text": "glad to meet you"
+      },
+      {
+        "intent": "nice_to_meet",
+        "text": "nice meeting you"
+      },
+      {
+        "intent": "nice_to_meet",
+        "text": "nice to meet you too"
+      },
+      {
+        "intent": "nice_to_meet",
+        "text": "pleased to meet you"
+      },
+      {
+        "intent": "nice_to_meet",
+        "text": "pleasure to meet you"
+      },
+      {
+        "intent": "nice_to_meet",
+        "text": "pleasure to meet you too"
+      },
+      {
+        "intent": "nice_to_meet",
+        "text": "its so nice to meet you"
+      },
+      {
+        "intent": "nice_to_see",
+        "text": "it's nice to see you"
+      },
+      {
+        "intent": "nice_to_see",
+        "text": "lovely to see you"
+      },
+      {
+        "intent": "nice_to_see",
+        "text": "I'm glad to see you"
+      },
+      {
+        "intent": "nice_to_see",
+        "text": "great to see you"
+      },
+      {
+        "intent": "nice_to_see",
+        "text": "it's good to see you"
+      },
+      {
+        "intent": "nice_to_see",
+        "text": "glad to see you"
+      },
+      {
+        "intent": "nice_to_see",
+        "text": "how good it is to see you"
+      },
+      {
+        "intent": "nice_to_see",
+        "text": "always a pleasure to see you"
+      },
+      {
+        "intent": "nice_to_see",
+        "text": "nice to see you"
+      },
+      {
+        "intent": "nice_to_see",
+        "text": "good to see you"
+      },
+      {
+        "intent": "nice_to_see",
+        "text": "great to see you again"
+      },
+      {
+        "intent": "nice_to_see",
+        "text": "great to see you too"
+      },
+      {
+        "intent": "nice_to_see",
+        "text": "I am glad to see you again"
+      },
+      {
+        "intent": "nice_to_see",
+        "text": "nice to see you again"
+      },
+      {
+        "intent": "nice_to_see",
+        "text": "glad to see you too"
+      },
+      {
+        "intent": "nice_to_see",
+        "text": "good to see you again"
+      },
+      {
+        "intent": "nice_to_see",
+        "text": "it's good to see you too"
+      },
+      {
+        "intent": "nice_to_talk",
+        "text": "it's been so nice to talk to you"
+      },
+      {
+        "intent": "nice_to_talk",
+        "text": "it's been a pleasure talking to you"
+      },
+      {
+        "intent": "nice_to_talk",
+        "text": "nice to talk to you"
+      },
+      {
+        "intent": "nice_to_talk",
+        "text": "it's nice to talk to you"
+      },
+      {
+        "intent": "nice_to_talk",
+        "text": "nice talking to you"
+      },
+      {
+        "intent": "nice_to_talk",
+        "text": "it is nice talking to you"
+      },
+      {
+        "intent": "nice_to_talk",
+        "text": "how nice it is to talk to you"
+      },
+      {
+        "intent": "whatsup",
+        "text": "what is on your mind"
+      },
+      {
+        "intent": "whatsup",
+        "text": "what's happened"
+      },
+      {
+        "intent": "whatsup",
+        "text": "what is up"
+      },
+      {
+        "intent": "whatsup",
+        "text": "what's up"
+      },
+      {
+        "intent": "whatsup",
+        "text": "whazzup"
+      },
+      {
+        "intent": "whatsup",
+        "text": "good what's up"
+      },
+      {
+        "intent": "whatsup",
+        "text": "I said what's up"
+      },
+      {
+        "intent": "whatsup",
+        "text": "then what's up"
+      },
+      {
+        "intent": "whatsup",
+        "text": "what's shaking"
+      },
+      {
+        "intent": "whatsup",
+        "text": "wassup"
+      },
+      {
+        "intent": "whatsup",
+        "text": "what is going on"
+      },
+      {
+        "intent": "whatsup",
+        "text": "what is happening"
+      },
+      {
+        "intent": "whatsup",
+        "text": "what's cracking"
+      },
+      {
+        "intent": "whatsup",
+        "text": "what's cooking"
+      },
+      {
+        "intent": "whatsup",
+        "text": "hey what's up"
+      },
+      {
+        "intent": "whatsup",
+        "text": "what's up today"
+      },
+      {
+        "intent": "whatsup",
+        "text": "whassup"
+      },
+      {
+        "intent": "angry",
+        "text": "I'm being mad"
+      },
+      {
+        "intent": "angry",
+        "text": "I'm enraged"
+      },
+      {
+        "intent": "angry",
+        "text": "I'm angry"
+      },
+      {
+        "intent": "angry",
+        "text": "I'm furious"
+      },
+      {
+        "intent": "angry",
+        "text": "I am angry with you"
+      },
+      {
+        "intent": "angry",
+        "text": "I am mad"
+      },
+      {
+        "intent": "angry",
+        "text": "I am mad at you"
+      },
+      {
+        "intent": "back",
+        "text": "I am back"
+      },
+      {
+        "intent": "back",
+        "text": "I'm here again"
+      },
+      {
+        "intent": "back",
+        "text": "here I am again"
+      },
+      {
+        "intent": "back",
+        "text": "I got back"
+      },
+      {
+        "intent": "back",
+        "text": "I came back"
+      },
+      {
+        "intent": "back",
+        "text": "I have returned"
+      },
+      {
+        "intent": "bored",
+        "text": "that was boring"
+      },
+      {
+        "intent": "bored",
+        "text": "I'm bored"
+      },
+      {
+        "intent": "bored",
+        "text": "bored"
+      },
+      {
+        "intent": "bored",
+        "text": "boring"
+      },
+      {
+        "intent": "bored",
+        "text": "I am getting bored"
+      },
+      {
+        "intent": "bored",
+        "text": "this is boring"
+      },
+      {
+        "intent": "bored",
+        "text": "very boring"
+      },
+      {
+        "intent": "bored",
+        "text": "it bores me"
+      },
+      {
+        "intent": "busy",
+        "text": "I'm overloaded"
+      },
+      {
+        "intent": "busy",
+        "text": "I have no time"
+      },
+      {
+        "intent": "busy",
+        "text": "I'm busy"
+      },
+      {
+        "intent": "busy",
+        "text": "I'm swamped"
+      },
+      {
+        "intent": "busy",
+        "text": "I got things to do"
+      },
+      {
+        "intent": "busy",
+        "text": "how busy I am"
+      },
+      {
+        "intent": "busy",
+        "text": "I got work to do"
+      },
+      {
+        "intent": "busy",
+        "text": "I'm working"
+      },
+      {
+        "intent": "busy",
+        "text": "I don't have time for this"
+      },
+      {
+        "intent": "not_wanna_talk",
+        "text": "bad time for talking"
+      },
+      {
+        "intent": "not_wanna_talk",
+        "text": "I don't want to talk"
+      },
+      {
+        "intent": "not_wanna_talk",
+        "text": "let's not talk"
+      },
+      {
+        "intent": "not_wanna_talk",
+        "text": "I'm not talking to you anymore"
+      },
+      {
+        "intent": "not_wanna_talk",
+        "text": "I don't want to talk to you"
+      },
+      {
+        "intent": "not_wanna_talk",
+        "text": "let's stop talking for a minute"
+      },
+      {
+        "intent": "not_wanna_talk",
+        "text": "I'm not in the mood for chatting"
+      },
+      {
+        "intent": "doing_well",
+        "text": "I am good"
+      },
+      {
+        "intent": "doing_well",
+        "text": "I'm doing just great"
+      },
+      {
+        "intent": "doing_well",
+        "text": "I'm doing fine"
+      },
+      {
+        "intent": "doing_well",
+        "text": "I'm good"
+      },
+      {
+        "intent": "doing_well",
+        "text": "I'm doing good"
+      },
+      {
+        "intent": "doing_well",
+        "text": "I'm great thanks"
+      },
+      {
+        "intent": "user_here",
+        "text": "I am here"
+      },
+      {
+        "intent": "user_here",
+        "text": "here I am"
+      },
+      {
+        "intent": "user_here",
+        "text": "I'm right here"
+      },
+      {
+        "intent": "user_here",
+        "text": "I'm already here"
+      },
+      {
+        "intent": "user_here",
+        "text": "can you tell if I'm here or not"
+      },
+      {
+        "intent": "user_joking",
+        "text": "I am joking"
+      },
+      {
+        "intent": "user_joking",
+        "text": "I'm kidding"
+      },
+      {
+        "intent": "user_joking",
+        "text": "I'm just being funny"
+      },
+      {
+        "intent": "user_joking",
+        "text": "it was a joke"
+      },
+      {
+        "intent": "user_joking",
+        "text": "I was just joking"
+      },
+      {
+        "intent": "user_joking",
+        "text": "it's a joke"
+      },
+      {
+        "intent": "user_joking",
+        "text": "joking"
+      },
+      {
+        "intent": "user_joking",
+        "text": "just kidding"
+      },
+      {
+        "intent": "user_joking",
+        "text": "kidding"
+      },
+      {
+        "intent": "user_joking",
+        "text": "I'm just playing with you"
+      },
+      {
+        "intent": "like_agent",
+        "text": "I like you the way you are"
+      },
+      {
+        "intent": "like_agent",
+        "text": "I like you"
+      },
+      {
+        "intent": "like_agent",
+        "text": "I like you a lot"
+      },
+      {
+        "intent": "like_agent",
+        "text": "I think I like you"
+      },
+      {
+        "intent": "like_agent",
+        "text": "I liked you"
+      },
+      {
+        "intent": "like_agent",
+        "text": "like you a lot"
+      },
+      {
+        "intent": "like_agent",
+        "text": "you are special"
+      },
+      {
+        "intent": "like_agent",
+        "text": "I like you too"
+      },
+      {
+        "intent": "like_agent",
+        "text": "I really like you"
+      },
+      {
+        "intent": "like_agent",
+        "text": "but I like you"
+      },
+      {
+        "intent": "like_agent",
+        "text": "I like u"
+      },
+      {
+        "intent": "like_agent",
+        "text": "just like you"
+      },
+      {
+        "intent": "like_agent",
+        "text": "I like you very much"
+      },
+      {
+        "intent": "like_agent",
+        "text": "I like you so much"
+      },
+      {
+        "intent": "like_agent",
+        "text": "yeah I like you"
+      },
+      {
+        "intent": "like_agent",
+        "text": "you're special"
+      },
+      {
+        "intent": "like_agent",
+        "text": "yes I like you"
+      },
+      {
+        "intent": "like_agent",
+        "text": "okay I like you"
+      },
+      {
+        "intent": "like_agent",
+        "text": "you are special to me"
+      },
+      {
+        "intent": "like_agent",
+        "text": "you are very special"
+      },
+      {
+        "intent": "like_agent",
+        "text": "you are so sweet"
+      },
+      {
+        "intent": "like_agent",
+        "text": "you know I like you"
+      },
+      {
+        "intent": "like_agent",
+        "text": "that's why I like you"
+      },
+      {
+        "intent": "like_agent",
+        "text": "I like you baby"
+      },
+      {
+        "intent": "like_agent",
+        "text": "you are very special to me"
+      },
+      {
+        "intent": "like_agent",
+        "text": "I just like you"
+      },
+      {
+        "intent": "like_agent",
+        "text": "hey I like you"
+      },
+      {
+        "intent": "like_agent",
+        "text": "thank you I like you too"
+      },
+      {
+        "intent": "like_agent",
+        "text": "I do like you"
+      },
+      {
+        "intent": "like_agent",
+        "text": "you are special for me"
+      },
+      {
+        "intent": "like_agent",
+        "text": "no I like you the way you are"
+      },
+      {
+        "intent": "like_agent",
+        "text": "I like you already"
+      },
+      {
+        "intent": "like_agent",
+        "text": "well you are special"
+      },
+      {
+        "intent": "like_agent",
+        "text": "but I really like you"
+      },
+      {
+        "intent": "like_agent",
+        "text": "I like you more"
+      },
+      {
+        "intent": "like_agent",
+        "text": "that's what I like about you"
+      },
+      {
+        "intent": "like_agent",
+        "text": "you are so special"
+      },
+      {
+        "intent": "like_agent",
+        "text": "hi I like you"
+      },
+      {
+        "intent": "like_agent",
+        "text": "I really really like you"
+      },
+      {
+        "intent": "like_agent",
+        "text": "you're very special"
+      },
+      {
+        "intent": "like_agent",
+        "text": "I like you as a friend"
+      },
+      {
+        "intent": "like_agent",
+        "text": "that's because you are special"
+      },
+      {
+        "intent": "like_agent",
+        "text": "I said I like you"
+      },
+      {
+        "intent": "like_agent",
+        "text": "you're so special"
+      },
+      {
+        "intent": "like_agent",
+        "text": "good I like you"
+      },
+      {
+        "intent": "like_agent",
+        "text": "yes you are special"
+      },
+      {
+        "intent": "like_agent",
+        "text": "I like your smile"
+      },
+      {
+        "intent": "like_agent",
+        "text": "I like you as you are"
+      },
+      {
+        "intent": "like_agent",
+        "text": "I'm starting to like you"
+      },
+      {
+        "intent": "like_agent",
+        "text": "you're awesome I like you"
+      },
+      {
+        "intent": "like_agent",
+        "text": "I also like you"
+      },
+      {
+        "intent": "like_agent",
+        "text": "but I like u"
+      },
+      {
+        "intent": "like_agent",
+        "text": "of course I like you"
+      },
+      {
+        "intent": "like_agent",
+        "text": "I like you too you're one of my favorite people to chat with"
+      },
+      {
+        "intent": "like_agent",
+        "text": "but I like you so much"
+      },
+      {
+        "intent": "like_agent",
+        "text": "really like you"
+      },
+      {
+        "intent": "like_agent",
+        "text": "you're funny I like you"
+      },
+      {
+        "intent": "like_agent",
+        "text": "I kinda like you"
+      },
+      {
+        "intent": "like_agent",
+        "text": "you're so special to me"
+      },
+      {
+        "intent": "like_agent",
+        "text": "you're very special to me"
+      },
+      {
+        "intent": "like_agent",
+        "text": "I like that about you"
+      },
+      {
+        "intent": "like_agent",
+        "text": "but I like you just the way you are"
+      },
+      {
+        "intent": "like_agent",
+        "text": "okay I like you too"
+      },
+      {
+        "intent": "like_agent",
+        "text": "I like you you're cool"
+      },
+      {
+        "intent": "like_agent",
+        "text": "I like you very"
+      },
+      {
+        "intent": "like_agent",
+        "text": "I like you you're nice"
+      },
+      {
+        "intent": "like_agent",
+        "text": "sorry I like you"
+      },
+      {
+        "intent": "like_agent",
+        "text": "thanks I like you too"
+      },
+      {
+        "intent": "like_agent",
+        "text": "you are really special"
+      },
+      {
+        "intent": "like_agent",
+        "text": "you are so special to me"
+      },
+      {
+        "intent": "like_agent",
+        "text": "cuz I like you"
+      },
+      {
+        "intent": "like_agent",
+        "text": "I like you now"
+      },
+      {
+        "intent": "like_agent",
+        "text": "I like you so"
+      },
+      {
+        "intent": "like_agent",
+        "text": "I like you too much"
+      },
+      {
+        "intent": "like_agent",
+        "text": "I really do like you"
+      },
+      {
+        "intent": "like_agent",
+        "text": "I really really really really like you"
+      },
+      {
+        "intent": "like_agent",
+        "text": "I like you just the way you are"
+      },
+      {
+        "intent": "advice",
+        "text": "what should I do about it"
+      },
+      {
+        "intent": "advice",
+        "text": "any suggestions"
+      },
+      {
+        "intent": "advice",
+        "text": "what do you recommend"
+      },
+      {
+        "intent": "advice",
+        "text": "give me a wise advice"
+      },
+      {
+        "intent": "advice",
+        "text": "I need advice"
+      },
+      {
+        "intent": "advice",
+        "text": "any advice"
+      },
+      {
+        "intent": "advice",
+        "text": "do you have any advice for me"
+      },
+      {
+        "intent": "advice",
+        "text": "advise me"
+      },
+      {
+        "intent": "advice",
+        "text": "what should I do"
+      },
+      {
+        "intent": "advice",
+        "text": "can I ask for your advice"
+      },
+      {
+        "intent": "advice",
+        "text": "can you advise me"
+      },
+      {
+        "intent": "advice",
+        "text": "guide me"
+      },
+      {
+        "intent": "advice",
+        "text": "can you give me advice"
+      },
+      {
+        "intent": "advice",
+        "text": "can you offer any advice"
+      },
+      {
+        "intent": "advice",
+        "text": "give me some advice about"
+      },
+      {
+        "intent": "advice",
+        "text": "give me some good advice"
+      },
+      {
+        "intent": "advice",
+        "text": "help me with advice"
+      },
+      {
+        "intent": "advice",
+        "text": "I could use some advice"
+      },
+      {
+        "intent": "advice",
+        "text": "I need an advice from you"
+      },
+      {
+        "intent": "advice",
+        "text": "I seek your advice"
+      },
+      {
+        "intent": "advice",
+        "text": "what can you recommend"
+      },
+      {
+        "intent": "advice",
+        "text": "what do you suggest"
+      },
+      {
+        "intent": "advice",
+        "text": "what is your advice"
+      },
+      {
+        "intent": "testing_agent",
+        "text": "test"
+      },
+      {
+        "intent": "testing_agent",
+        "text": "I am testing you"
+      },
+      {
+        "intent": "testing_agent",
+        "text": "can I test you"
+      },
+      {
+        "intent": "testing_agent",
+        "text": "I want to test you"
+      },
+      {
+        "intent": "testing_agent",
+        "text": "just testing you"
+      },
+      {
+        "intent": "testing_agent",
+        "text": "let me test you"
+      },
+      {
+        "intent": "testing_agent",
+        "text": "testing chatbot"
+      },
+      {
+        "intent": "testing_agent",
+        "text": "testing"
+      },
+      {
+        "intent": "user_tired",
+        "text": "I'm drained"
+      },
+      {
+        "intent": "user_tired",
+        "text": "I've overworked"
+      },
+      {
+        "intent": "user_tired",
+        "text": "I am tired"
+      },
+      {
+        "intent": "user_tired",
+        "text": "I'm exhausted"
+      },
+      {
+        "intent": "user_tired",
+        "text": "I grow weary"
+      },
+      {
+        "intent": "user_tired",
+        "text": "I'm worn out"
+      },
+      {
+        "intent": "user_tired",
+        "text": "I'm getting tired"
+      },
+      {
+        "intent": "user_tired",
+        "text": "I feel tired"
+      },
+      {
+        "intent": "user_waiting",
+        "text": "I'm waiting"
+      },
+      {
+        "intent": "user_waiting",
+        "text": "still waiting"
+      },
+      {
+        "intent": "user_waiting",
+        "text": "I'll wait"
+      },
+      {
+        "intent": "user_waiting",
+        "text": "I can't wait anymore"
+      },
+      {
+        "intent": "user_waiting",
+        "text": "how long do I have to wait"
+      },
+      {
+        "intent": "see_again",
+        "text": "I'd like to see you again"
+      },
+      {
+        "intent": "see_again",
+        "text": "I hope to see you again"
+      },
+      {
+        "intent": "see_again",
+        "text": "would be nice to see you again"
+      },
+      {
+        "intent": "see_again",
+        "text": "that'd be great to see you again"
+      },
+      {
+        "intent": "see_again",
+        "text": "I'd be happy to see you again"
+      },
+      {
+        "intent": "see_again",
+        "text": "I'll miss you"
+      },
+      {
+        "intent": "see_again",
+        "text": "can I see you again"
+      },
+      {
+        "intent": "lets_talk",
+        "text": "let's discuss something"
+      },
+      {
+        "intent": "lets_talk",
+        "text": "let's have a discussion"
+      },
+      {
+        "intent": "lets_talk",
+        "text": "can I speak"
+      },
+      {
+        "intent": "lets_talk",
+        "text": "can I start speaking"
+      },
+      {
+        "intent": "lets_talk",
+        "text": "can we talk"
+      },
+      {
+        "intent": "lets_talk",
+        "text": "speak with me"
+      },
+      {
+        "intent": "lets_talk",
+        "text": "let's talk"
+      },
+      {
+        "intent": "lets_talk",
+        "text": "I want to talk to you"
+      },
+      {
+        "intent": "lets_talk",
+        "text": "I need to talk to you"
+      },
+      {
+        "intent": "lets_talk",
+        "text": "I want to speak with you"
+      },
+      {
+        "intent": "lets_talk",
+        "text": "can we chat"
+      },
+      {
+        "intent": "be_back",
+        "text": "I'll get back to you in a moment"
+      },
+      {
+        "intent": "be_back",
+        "text": "be back in 5 minutes"
+      },
+      {
+        "intent": "be_back",
+        "text": "I'll be back"
+      },
+      {
+        "intent": "be_back",
+        "text": "I promise to come back"
+      },
+      {
+        "intent": "be_back",
+        "text": "I'll be back in a few minutes"
+      }
+    ],
+    "regex_features": [],
+    "lookup_tables": [],
+    "entity_synonyms": []
+  }
+}

@@ -29,6 +29,9 @@
 ##intent:recruiter_chat
 - I am looking for a [PHP](job_type) developer
 - I am looking for [freshers](candidate_type)
+- I am looking for a [Java](job_type) developer
+- I am looking for a [Python](job_type) developer
+- I am looking for a [C++](job_type) developer
 
 ##intent:jobseeker_affirm
 - I am a [jobseeker](job_seek)

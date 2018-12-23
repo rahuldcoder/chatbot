@@ -4,6 +4,75 @@ intents:
   - recruiter_chat
   - jobseeker_affirm
   - JobSeeker_detail
+  - demo
+  - inform
+  - age
+  - annoying
+  - answer_question
+  - unhelpful
+  - study
+  - boring
+  - boss
+  - busy
+  - help
+  - chatbot
+  - crazy
+  - hobby
+  - occupation
+  - origin
+  - ready
+  - real
+  - residence
+  - are_you_sure
+  - talk
+  - bad
+  - good
+  - no_problem
+  - thanks
+  - welcome
+  - well_done
+  - wait
+  - dont_care
+  - sorry
+  - what_you_mean
+  - wrong
+  - ha_ha
+  - wow
+  - goodbye
+  - goodevening
+  - goodmorning
+  - goodnight
+  - how_are_you
+  - nice_to_meet
+  - nice_to_see
+  - nice_to_talk
+  - whatsup
+  - angry
+  - back
+  - bored
+  - busy
+  - not_wanna_talk
+  - doing_well
+  - user_here
+  - user_joking
+  - like_agent
+  - advice
+  - testing_agent
+  - user_tired
+  - user_waiting
+  - see_again
+  - lets_talk
+  - be_back
+
+entities:
+  - job_type
+  - candidate_type
+  - job_seek
+  - company_name
+  - name
+  - mail
+  - location
+  - package
 
 actions:
 - utter_greet

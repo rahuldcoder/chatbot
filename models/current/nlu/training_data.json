@@ -130,6 +130,42 @@
         "text": "I am looking for freshers"
       },
       {
+        "intent": "recruiter_chat",
+        "entities": [
+          {
+            "start": 19,
+            "end": 23,
+            "value": "Java",
+            "entity": "job_type"
+          }
+        ],
+        "text": "I am looking for a Java developer"
+      },
+      {
+        "intent": "recruiter_chat",
+        "entities": [
+          {
+            "start": 19,
+            "end": 25,
+            "value": "Python",
+            "entity": "job_type"
+          }
+        ],
+        "text": "I am looking for a Python developer"
+      },
+      {
+        "intent": "recruiter_chat",
+        "entities": [
+          {
+            "start": 19,
+            "end": 22,
+            "value": "C++",
+            "entity": "job_type"
+          }
+        ],
+        "text": "I am looking for a C++ developer"
+      },
+      {
         "intent": "jobseeker_affirm",
         "entities": [
           {

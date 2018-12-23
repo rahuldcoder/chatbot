@@ -6,4 +6,4 @@ def pprint(o):
     print(json.dumps(o, indent=2))
 
 interpreter = Interpreter.load('./models/current/nlu')
-pprint(interpreter.parse(u"I am looking for a job"))
+pprint(interpreter.parse(u"I am looking for a PHP job in Hyderabad"))
